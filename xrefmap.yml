@@ -1,0 +1,2094 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Args
+  name: Args
+  href: api/Args.html
+  commentId: N:Args
+  fullName: Args
+  nameWithType: Args
+- uid: Args.CliArgs
+  name: CliArgs
+  href: api/Args.CliArgs.html
+  commentId: T:Args.CliArgs
+  fullName: Args.CliArgs
+  nameWithType: CliArgs
+- uid: Args.CliArgs.CliHandler
+  name: CliArgs.CliHandler
+  href: api/Args.CliArgs.CliHandler.html
+  commentId: T:Args.CliArgs.CliHandler
+  fullName: Args.CliArgs.CliHandler
+  nameWithType: CliArgs.CliHandler
+- uid: Args.CliArgs.CliHandler.#ctor(System.String[])
+  name: CliHandler(string[])
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler__ctor_System_String___
+  commentId: M:Args.CliArgs.CliHandler.#ctor(System.String[])
+  name.vb: New(String())
+  fullName: Args.CliArgs.CliHandler.CliHandler(string[])
+  fullName.vb: Args.CliArgs.CliHandler.New(String())
+  nameWithType: CliArgs.CliHandler.CliHandler(string[])
+  nameWithType.vb: CliArgs.CliHandler.New(String())
+- uid: Args.CliArgs.CliHandler.#ctor*
+  name: CliHandler
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler__ctor_
+  commentId: Overload:Args.CliArgs.CliHandler.#ctor
+  name.vb: New
+  fullName: Args.CliArgs.CliHandler.CliHandler
+  fullName.vb: Args.CliArgs.CliHandler.New
+  nameWithType: CliArgs.CliHandler.CliHandler
+  nameWithType.vb: CliArgs.CliHandler.New
+- uid: Args.CliArgs.CliHandler.GlobalTheme
+  name: GlobalTheme
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler_GlobalTheme
+  commentId: P:Args.CliArgs.CliHandler.GlobalTheme
+  fullName: Args.CliArgs.CliHandler.GlobalTheme
+  nameWithType: CliArgs.CliHandler.GlobalTheme
+- uid: Args.CliArgs.CliHandler.GlobalTheme*
+  name: GlobalTheme
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler_GlobalTheme_
+  commentId: Overload:Args.CliArgs.CliHandler.GlobalTheme
+  fullName: Args.CliArgs.CliHandler.GlobalTheme
+  nameWithType: CliArgs.CliHandler.GlobalTheme
+- uid: Args.CliArgs.CliHandler.InputFile
+  name: InputFile
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler_InputFile
+  commentId: P:Args.CliArgs.CliHandler.InputFile
+  fullName: Args.CliArgs.CliHandler.InputFile
+  nameWithType: CliArgs.CliHandler.InputFile
+- uid: Args.CliArgs.CliHandler.InputFile*
+  name: InputFile
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler_InputFile_
+  commentId: Overload:Args.CliArgs.CliHandler.InputFile
+  fullName: Args.CliArgs.CliHandler.InputFile
+  nameWithType: CliArgs.CliHandler.InputFile
+- uid: Args.CliArgs.CliHandler.TalkToUser
+  name: TalkToUser
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler_TalkToUser
+  commentId: P:Args.CliArgs.CliHandler.TalkToUser
+  fullName: Args.CliArgs.CliHandler.TalkToUser
+  nameWithType: CliArgs.CliHandler.TalkToUser
+- uid: Args.CliArgs.CliHandler.TalkToUser*
+  name: TalkToUser
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler_TalkToUser_
+  commentId: Overload:Args.CliArgs.CliHandler.TalkToUser
+  fullName: Args.CliArgs.CliHandler.TalkToUser
+  nameWithType: CliArgs.CliHandler.TalkToUser
+- uid: Args.CliArgs.CliHandler.getContext
+  name: getContext()
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler_getContext
+  commentId: M:Args.CliArgs.CliHandler.getContext
+  fullName: Args.CliArgs.CliHandler.getContext()
+  nameWithType: CliArgs.CliHandler.getContext()
+- uid: Args.CliArgs.CliHandler.getContext*
+  name: getContext
+  href: api/Args.CliArgs.CliHandler.html#Args_CliArgs_CliHandler_getContext_
+  commentId: Overload:Args.CliArgs.CliHandler.getContext
+  fullName: Args.CliArgs.CliHandler.getContext
+  nameWithType: CliArgs.CliHandler.getContext
+- uid: Args.CliArgs.usage
+  name: usage
+  href: api/Args.CliArgs.html#Args_CliArgs_usage
+  commentId: F:Args.CliArgs.usage
+  fullName: Args.CliArgs.usage
+  nameWithType: CliArgs.usage
+- uid: ClassLibraryCS.Collections
+  name: ClassLibraryCS.Collections
+  href: api/ClassLibraryCS.Collections.html
+  commentId: N:ClassLibraryCS.Collections
+  fullName: ClassLibraryCS.Collections
+  nameWithType: ClassLibraryCS.Collections
+- uid: ClassLibraryCS.Collections.DynArray`1
+  name: DynArray<T>
+  href: api/ClassLibraryCS.Collections.DynArray-1.html
+  commentId: T:ClassLibraryCS.Collections.DynArray`1
+  name.vb: DynArray(Of T)
+  fullName: ClassLibraryCS.Collections.DynArray<T>
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T)
+  nameWithType: DynArray<T>
+  nameWithType.vb: DynArray(Of T)
+- uid: ClassLibraryCS.Collections.DynArray`1.#ctor
+  name: DynArray()
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1__ctor
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.#ctor
+  name.vb: New()
+  fullName: ClassLibraryCS.Collections.DynArray<T>.DynArray()
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).New()
+  nameWithType: DynArray<T>.DynArray()
+  nameWithType.vb: DynArray(Of T).New()
+- uid: ClassLibraryCS.Collections.DynArray`1.#ctor(System.Int32)
+  name: DynArray(int)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1__ctor_System_Int32_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.DynArray(int)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).New(Integer)
+  nameWithType: DynArray<T>.DynArray(int)
+  nameWithType.vb: DynArray(Of T).New(Integer)
+- uid: ClassLibraryCS.Collections.DynArray`1.#ctor(System.Int32,System.Func{`0})
+  name: DynArray(int, Func<T>)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1__ctor_System_Int32_System_Func__0__
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.#ctor(System.Int32,System.Func{`0})
+  name.vb: New(Integer, Func(Of T))
+  fullName: ClassLibraryCS.Collections.DynArray<T>.DynArray(int, System.Func<T>)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).New(Integer, System.Func(Of T))
+  nameWithType: DynArray<T>.DynArray(int, Func<T>)
+  nameWithType.vb: DynArray(Of T).New(Integer, Func(Of T))
+- uid: ClassLibraryCS.Collections.DynArray`1.#ctor(System.Int32,`0)
+  name: DynArray(int, T?)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1__ctor_System_Int32__0_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.#ctor(System.Int32,`0)
+  name.vb: New(Integer, T)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.DynArray(int, T?)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).New(Integer, T)
+  nameWithType: DynArray<T>.DynArray(int, T?)
+  nameWithType.vb: DynArray(Of T).New(Integer, T)
+- uid: ClassLibraryCS.Collections.DynArray`1.#ctor*
+  name: DynArray
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1__ctor_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.#ctor
+  name.vb: New
+  fullName: ClassLibraryCS.Collections.DynArray<T>.DynArray
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).New
+  nameWithType: DynArray<T>.DynArray
+  nameWithType.vb: DynArray(Of T).New
+- uid: ClassLibraryCS.Collections.DynArray`1.Add(`0)
+  name: Add(T)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Add__0_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Add(`0)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Add(T)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Add(T)
+  nameWithType: DynArray<T>.Add(T)
+  nameWithType.vb: DynArray(Of T).Add(T)
+- uid: ClassLibraryCS.Collections.DynArray`1.Add*
+  name: Add
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Add_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Add
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Add
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Add
+  nameWithType: DynArray<T>.Add
+  nameWithType.vb: DynArray(Of T).Add
+- uid: ClassLibraryCS.Collections.DynArray`1.Capacity
+  name: Capacity
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Capacity
+  commentId: P:ClassLibraryCS.Collections.DynArray`1.Capacity
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Capacity
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Capacity
+  nameWithType: DynArray<T>.Capacity
+  nameWithType.vb: DynArray(Of T).Capacity
+- uid: ClassLibraryCS.Collections.DynArray`1.Capacity*
+  name: Capacity
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Capacity_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Capacity
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Capacity
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Capacity
+  nameWithType: DynArray<T>.Capacity
+  nameWithType.vb: DynArray(Of T).Capacity
+- uid: ClassLibraryCS.Collections.DynArray`1.Clear
+  name: Clear()
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Clear
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Clear
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Clear()
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Clear()
+  nameWithType: DynArray<T>.Clear()
+  nameWithType.vb: DynArray(Of T).Clear()
+- uid: ClassLibraryCS.Collections.DynArray`1.Clear*
+  name: Clear
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Clear_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Clear
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Clear
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Clear
+  nameWithType: DynArray<T>.Clear
+  nameWithType.vb: DynArray(Of T).Clear
+- uid: ClassLibraryCS.Collections.DynArray`1.Clone
+  name: Clone()
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Clone
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Clone
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Clone()
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Clone()
+  nameWithType: DynArray<T>.Clone()
+  nameWithType.vb: DynArray(Of T).Clone()
+- uid: ClassLibraryCS.Collections.DynArray`1.Clone*
+  name: Clone
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Clone_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Clone
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Clone
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Clone
+  nameWithType: DynArray<T>.Clone
+  nameWithType.vb: DynArray(Of T).Clone
+- uid: ClassLibraryCS.Collections.DynArray`1.Contains(`0)
+  name: Contains(T)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Contains__0_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Contains(`0)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Contains(T)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Contains(T)
+  nameWithType: DynArray<T>.Contains(T)
+  nameWithType.vb: DynArray(Of T).Contains(T)
+- uid: ClassLibraryCS.Collections.DynArray`1.Contains*
+  name: Contains
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Contains_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Contains
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Contains
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Contains
+  nameWithType: DynArray<T>.Contains
+  nameWithType.vb: DynArray(Of T).Contains
+- uid: ClassLibraryCS.Collections.DynArray`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], int)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_CopyTo__0___System_Int32_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Integer)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.CopyTo(T[], int)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).CopyTo(T(), Integer)
+  nameWithType: DynArray<T>.CopyTo(T[], int)
+  nameWithType.vb: DynArray(Of T).CopyTo(T(), Integer)
+- uid: ClassLibraryCS.Collections.DynArray`1.CopyTo*
+  name: CopyTo
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_CopyTo_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.CopyTo
+  fullName: ClassLibraryCS.Collections.DynArray<T>.CopyTo
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).CopyTo
+  nameWithType: DynArray<T>.CopyTo
+  nameWithType.vb: DynArray(Of T).CopyTo
+- uid: ClassLibraryCS.Collections.DynArray`1.Count
+  name: Count
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Count
+  commentId: P:ClassLibraryCS.Collections.DynArray`1.Count
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Count
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Count
+  nameWithType: DynArray<T>.Count
+  nameWithType.vb: DynArray(Of T).Count
+- uid: ClassLibraryCS.Collections.DynArray`1.Count*
+  name: Count
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Count_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Count
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Count
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Count
+  nameWithType: DynArray<T>.Count
+  nameWithType.vb: DynArray(Of T).Count
+- uid: ClassLibraryCS.Collections.DynArray`1.Equals(System.Object)
+  name: Equals(object?)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Equals_System_Object_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Equals(object?)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Equals(Object)
+  nameWithType: DynArray<T>.Equals(object?)
+  nameWithType.vb: DynArray(Of T).Equals(Object)
+- uid: ClassLibraryCS.Collections.DynArray`1.Equals*
+  name: Equals
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Equals_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Equals
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Equals
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Equals
+  nameWithType: DynArray<T>.Equals
+  nameWithType.vb: DynArray(Of T).Equals
+- uid: ClassLibraryCS.Collections.DynArray`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_GetEnumerator
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.GetEnumerator
+  fullName: ClassLibraryCS.Collections.DynArray<T>.GetEnumerator()
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).GetEnumerator()
+  nameWithType: DynArray<T>.GetEnumerator()
+  nameWithType.vb: DynArray(Of T).GetEnumerator()
+- uid: ClassLibraryCS.Collections.DynArray`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_GetEnumerator_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.GetEnumerator
+  fullName: ClassLibraryCS.Collections.DynArray<T>.GetEnumerator
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).GetEnumerator
+  nameWithType: DynArray<T>.GetEnumerator
+  nameWithType.vb: DynArray(Of T).GetEnumerator
+- uid: ClassLibraryCS.Collections.DynArray`1.GetHashCode
+  name: GetHashCode()
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_GetHashCode
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.GetHashCode
+  fullName: ClassLibraryCS.Collections.DynArray<T>.GetHashCode()
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).GetHashCode()
+  nameWithType: DynArray<T>.GetHashCode()
+  nameWithType.vb: DynArray(Of T).GetHashCode()
+- uid: ClassLibraryCS.Collections.DynArray`1.GetHashCode*
+  name: GetHashCode
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_GetHashCode_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.GetHashCode
+  fullName: ClassLibraryCS.Collections.DynArray<T>.GetHashCode
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).GetHashCode
+  nameWithType: DynArray<T>.GetHashCode
+  nameWithType.vb: DynArray(Of T).GetHashCode
+- uid: ClassLibraryCS.Collections.DynArray`1.IndexOf(`0)
+  name: IndexOf(T)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_IndexOf__0_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.IndexOf(`0)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.IndexOf(T)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).IndexOf(T)
+  nameWithType: DynArray<T>.IndexOf(T)
+  nameWithType.vb: DynArray(Of T).IndexOf(T)
+- uid: ClassLibraryCS.Collections.DynArray`1.IndexOf*
+  name: IndexOf
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_IndexOf_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.IndexOf
+  fullName: ClassLibraryCS.Collections.DynArray<T>.IndexOf
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).IndexOf
+  nameWithType: DynArray<T>.IndexOf
+  nameWithType.vb: DynArray(Of T).IndexOf
+- uid: ClassLibraryCS.Collections.DynArray`1.Insert(System.Int32,`0)
+  name: Insert(int, T)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Insert_System_Int32__0_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Insert(System.Int32,`0)
+  name.vb: Insert(Integer, T)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Insert(int, T)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Insert(Integer, T)
+  nameWithType: DynArray<T>.Insert(int, T)
+  nameWithType.vb: DynArray(Of T).Insert(Integer, T)
+- uid: ClassLibraryCS.Collections.DynArray`1.Insert*
+  name: Insert
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Insert_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Insert
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Insert
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Insert
+  nameWithType: DynArray<T>.Insert
+  nameWithType.vb: DynArray(Of T).Insert
+- uid: ClassLibraryCS.Collections.DynArray`1.IsReadOnly
+  name: IsReadOnly
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_IsReadOnly
+  commentId: P:ClassLibraryCS.Collections.DynArray`1.IsReadOnly
+  fullName: ClassLibraryCS.Collections.DynArray<T>.IsReadOnly
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).IsReadOnly
+  nameWithType: DynArray<T>.IsReadOnly
+  nameWithType.vb: DynArray(Of T).IsReadOnly
+- uid: ClassLibraryCS.Collections.DynArray`1.IsReadOnly*
+  name: IsReadOnly
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_IsReadOnly_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.IsReadOnly
+  fullName: ClassLibraryCS.Collections.DynArray<T>.IsReadOnly
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).IsReadOnly
+  nameWithType: DynArray<T>.IsReadOnly
+  nameWithType.vb: DynArray(Of T).IsReadOnly
+- uid: ClassLibraryCS.Collections.DynArray`1.Item(System.Int32)
+  name: this[int]
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Item_System_Int32_
+  commentId: P:ClassLibraryCS.Collections.DynArray`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.this[int]
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).this[](Integer)
+  nameWithType: DynArray<T>.this[int]
+  nameWithType.vb: DynArray(Of T).this[](Integer)
+- uid: ClassLibraryCS.Collections.DynArray`1.Item*
+  name: this
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Item_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Item
+  name.vb: this[]
+  fullName: ClassLibraryCS.Collections.DynArray<T>.this
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).this[]
+  nameWithType: DynArray<T>.this
+  nameWithType.vb: DynArray(Of T).this[]
+- uid: ClassLibraryCS.Collections.DynArray`1.LastIndexOf(`0)
+  name: LastIndexOf(T)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_LastIndexOf__0_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.LastIndexOf(`0)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.LastIndexOf(T)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).LastIndexOf(T)
+  nameWithType: DynArray<T>.LastIndexOf(T)
+  nameWithType.vb: DynArray(Of T).LastIndexOf(T)
+- uid: ClassLibraryCS.Collections.DynArray`1.LastIndexOf*
+  name: LastIndexOf
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_LastIndexOf_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.LastIndexOf
+  fullName: ClassLibraryCS.Collections.DynArray<T>.LastIndexOf
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).LastIndexOf
+  nameWithType: DynArray<T>.LastIndexOf
+  nameWithType.vb: DynArray(Of T).LastIndexOf
+- uid: ClassLibraryCS.Collections.DynArray`1.Remove(`0)
+  name: Remove(T)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Remove__0_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Remove(`0)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Remove(T)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Remove(T)
+  nameWithType: DynArray<T>.Remove(T)
+  nameWithType.vb: DynArray(Of T).Remove(T)
+- uid: ClassLibraryCS.Collections.DynArray`1.Remove*
+  name: Remove
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Remove_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Remove
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Remove
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Remove
+  nameWithType: DynArray<T>.Remove
+  nameWithType.vb: DynArray(Of T).Remove
+- uid: ClassLibraryCS.Collections.DynArray`1.RemoveAt(System.Int32)
+  name: RemoveAt(int)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_RemoveAt_System_Int32_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.RemoveAt(System.Int32)
+  name.vb: RemoveAt(Integer)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.RemoveAt(int)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).RemoveAt(Integer)
+  nameWithType: DynArray<T>.RemoveAt(int)
+  nameWithType.vb: DynArray(Of T).RemoveAt(Integer)
+- uid: ClassLibraryCS.Collections.DynArray`1.RemoveAt*
+  name: RemoveAt
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_RemoveAt_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.RemoveAt
+  fullName: ClassLibraryCS.Collections.DynArray<T>.RemoveAt
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).RemoveAt
+  nameWithType: DynArray<T>.RemoveAt
+  nameWithType.vb: DynArray(Of T).RemoveAt
+- uid: ClassLibraryCS.Collections.DynArray`1.Reserve(System.Int32)
+  name: Reserve(int)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Reserve_System_Int32_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Reserve(System.Int32)
+  name.vb: Reserve(Integer)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Reserve(int)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Reserve(Integer)
+  nameWithType: DynArray<T>.Reserve(int)
+  nameWithType.vb: DynArray(Of T).Reserve(Integer)
+- uid: ClassLibraryCS.Collections.DynArray`1.Reserve*
+  name: Reserve
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Reserve_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Reserve
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Reserve
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Reserve
+  nameWithType: DynArray<T>.Reserve
+  nameWithType.vb: DynArray(Of T).Reserve
+- uid: ClassLibraryCS.Collections.DynArray`1.Resize(System.Int32)
+  name: Resize(int)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Resize_System_Int32_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Resize(System.Int32)
+  name.vb: Resize(Integer)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Resize(int)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Resize(Integer)
+  nameWithType: DynArray<T>.Resize(int)
+  nameWithType.vb: DynArray(Of T).Resize(Integer)
+- uid: ClassLibraryCS.Collections.DynArray`1.Resize*
+  name: Resize
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Resize_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Resize
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Resize
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Resize
+  nameWithType: DynArray<T>.Resize
+  nameWithType.vb: DynArray(Of T).Resize
+- uid: ClassLibraryCS.Collections.DynArray`1.Slice(System.Int32,System.Int32)
+  name: Slice(int, int)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Slice_System_Int32_System_Int32_
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.Slice(System.Int32,System.Int32)
+  name.vb: Slice(Integer, Integer)
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Slice(int, int)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Slice(Integer, Integer)
+  nameWithType: DynArray<T>.Slice(int, int)
+  nameWithType.vb: DynArray(Of T).Slice(Integer, Integer)
+- uid: ClassLibraryCS.Collections.DynArray`1.Slice*
+  name: Slice
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_Slice_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.Slice
+  fullName: ClassLibraryCS.Collections.DynArray<T>.Slice
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).Slice
+  nameWithType: DynArray<T>.Slice
+  nameWithType.vb: DynArray(Of T).Slice
+- uid: ClassLibraryCS.Collections.DynArray`1.ToString
+  name: ToString()
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_ToString
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.ToString
+  fullName: ClassLibraryCS.Collections.DynArray<T>.ToString()
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).ToString()
+  nameWithType: DynArray<T>.ToString()
+  nameWithType.vb: DynArray(Of T).ToString()
+- uid: ClassLibraryCS.Collections.DynArray`1.ToString*
+  name: ToString
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_ToString_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.ToString
+  fullName: ClassLibraryCS.Collections.DynArray<T>.ToString
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).ToString
+  nameWithType: DynArray<T>.ToString
+  nameWithType.vb: DynArray(Of T).ToString
+- uid: ClassLibraryCS.Collections.DynArray`1.op_Addition(ClassLibraryCS.Collections.DynArray{`0},ClassLibraryCS.Collections.DynArray{`0})
+  name: operator +(DynArray<T>, DynArray<T>)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_op_Addition_ClassLibraryCS_Collections_DynArray__0__ClassLibraryCS_Collections_DynArray__0__
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.op_Addition(ClassLibraryCS.Collections.DynArray{`0},ClassLibraryCS.Collections.DynArray{`0})
+  name.vb: +(DynArray(Of T), DynArray(Of T))
+  fullName: ClassLibraryCS.Collections.DynArray<T>.operator +(ClassLibraryCS.Collections.DynArray<T>, ClassLibraryCS.Collections.DynArray<T>)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).+(ClassLibraryCS.Collections.DynArray(Of T), ClassLibraryCS.Collections.DynArray(Of T))
+  nameWithType: DynArray<T>.operator +(DynArray<T>, DynArray<T>)
+  nameWithType.vb: DynArray(Of T).+(DynArray(Of T), DynArray(Of T))
+- uid: ClassLibraryCS.Collections.DynArray`1.op_Addition*
+  name: operator +
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_op_Addition_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.op_Addition
+  name.vb: +
+  fullName: ClassLibraryCS.Collections.DynArray<T>.operator +
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).+
+  nameWithType: DynArray<T>.operator +
+  nameWithType.vb: DynArray(Of T).+
+- uid: ClassLibraryCS.Collections.DynArray`1.op_Equality(ClassLibraryCS.Collections.DynArray{`0},ClassLibraryCS.Collections.DynArray{`0})
+  name: operator ==(DynArray<T>?, DynArray<T>?)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_op_Equality_ClassLibraryCS_Collections_DynArray__0__ClassLibraryCS_Collections_DynArray__0__
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.op_Equality(ClassLibraryCS.Collections.DynArray{`0},ClassLibraryCS.Collections.DynArray{`0})
+  name.vb: =(DynArray(Of T), DynArray(Of T))
+  fullName: ClassLibraryCS.Collections.DynArray<T>.operator ==(ClassLibraryCS.Collections.DynArray<T>?, ClassLibraryCS.Collections.DynArray<T>?)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).=(ClassLibraryCS.Collections.DynArray(Of T), ClassLibraryCS.Collections.DynArray(Of T))
+  nameWithType: DynArray<T>.operator ==(DynArray<T>?, DynArray<T>?)
+  nameWithType.vb: DynArray(Of T).=(DynArray(Of T), DynArray(Of T))
+- uid: ClassLibraryCS.Collections.DynArray`1.op_Equality*
+  name: operator ==
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_op_Equality_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.op_Equality
+  name.vb: =
+  fullName: ClassLibraryCS.Collections.DynArray<T>.operator ==
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).=
+  nameWithType: DynArray<T>.operator ==
+  nameWithType.vb: DynArray(Of T).=
+- uid: ClassLibraryCS.Collections.DynArray`1.op_Inequality(ClassLibraryCS.Collections.DynArray{`0},ClassLibraryCS.Collections.DynArray{`0})
+  name: operator !=(DynArray<T>?, DynArray<T>?)
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_op_Inequality_ClassLibraryCS_Collections_DynArray__0__ClassLibraryCS_Collections_DynArray__0__
+  commentId: M:ClassLibraryCS.Collections.DynArray`1.op_Inequality(ClassLibraryCS.Collections.DynArray{`0},ClassLibraryCS.Collections.DynArray{`0})
+  name.vb: <>(DynArray(Of T), DynArray(Of T))
+  fullName: ClassLibraryCS.Collections.DynArray<T>.operator !=(ClassLibraryCS.Collections.DynArray<T>?, ClassLibraryCS.Collections.DynArray<T>?)
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).<>(ClassLibraryCS.Collections.DynArray(Of T), ClassLibraryCS.Collections.DynArray(Of T))
+  nameWithType: DynArray<T>.operator !=(DynArray<T>?, DynArray<T>?)
+  nameWithType.vb: DynArray(Of T).<>(DynArray(Of T), DynArray(Of T))
+- uid: ClassLibraryCS.Collections.DynArray`1.op_Inequality*
+  name: operator !=
+  href: api/ClassLibraryCS.Collections.DynArray-1.html#ClassLibraryCS_Collections_DynArray_1_op_Inequality_
+  commentId: Overload:ClassLibraryCS.Collections.DynArray`1.op_Inequality
+  name.vb: <>
+  fullName: ClassLibraryCS.Collections.DynArray<T>.operator !=
+  fullName.vb: ClassLibraryCS.Collections.DynArray(Of T).<>
+  nameWithType: DynArray<T>.operator !=
+  nameWithType.vb: DynArray(Of T).<>
+- uid: ClassLibraryCS.Collections.Generator
+  name: Generator
+  href: api/ClassLibraryCS.Collections.Generator.html
+  commentId: T:ClassLibraryCS.Collections.Generator
+  fullName: ClassLibraryCS.Collections.Generator
+  nameWithType: Generator
+- uid: ClassLibraryCS.Collections.Generator.GetRandomArray*
+  name: GetRandomArray
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_GetRandomArray_
+  commentId: Overload:ClassLibraryCS.Collections.Generator.GetRandomArray
+  fullName: ClassLibraryCS.Collections.Generator.GetRandomArray
+  nameWithType: Generator.GetRandomArray
+- uid: ClassLibraryCS.Collections.Generator.GetRandomArray``1(System.Range,System.Func{``0})
+  name: GetRandomArray<T>(Range, Func<T>)
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_GetRandomArray__1_System_Range_System_Func___0__
+  commentId: M:ClassLibraryCS.Collections.Generator.GetRandomArray``1(System.Range,System.Func{``0})
+  name.vb: GetRandomArray(Of T)(Range, Func(Of T))
+  fullName: ClassLibraryCS.Collections.Generator.GetRandomArray<T>(System.Range, System.Func<T>)
+  fullName.vb: ClassLibraryCS.Collections.Generator.GetRandomArray(Of T)(System.Range, System.Func(Of T))
+  nameWithType: Generator.GetRandomArray<T>(Range, Func<T>)
+  nameWithType.vb: Generator.GetRandomArray(Of T)(Range, Func(Of T))
+- uid: ClassLibraryCS.Collections.Generator.GetRandomDoubleArray(System.Range,System.Int32)
+  name: GetRandomDoubleArray(Range, int)
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_GetRandomDoubleArray_System_Range_System_Int32_
+  commentId: M:ClassLibraryCS.Collections.Generator.GetRandomDoubleArray(System.Range,System.Int32)
+  name.vb: GetRandomDoubleArray(Range, Integer)
+  fullName: ClassLibraryCS.Collections.Generator.GetRandomDoubleArray(System.Range, int)
+  fullName.vb: ClassLibraryCS.Collections.Generator.GetRandomDoubleArray(System.Range, Integer)
+  nameWithType: Generator.GetRandomDoubleArray(Range, int)
+  nameWithType.vb: Generator.GetRandomDoubleArray(Range, Integer)
+- uid: ClassLibraryCS.Collections.Generator.GetRandomDoubleArray*
+  name: GetRandomDoubleArray
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_GetRandomDoubleArray_
+  commentId: Overload:ClassLibraryCS.Collections.Generator.GetRandomDoubleArray
+  fullName: ClassLibraryCS.Collections.Generator.GetRandomDoubleArray
+  nameWithType: Generator.GetRandomDoubleArray
+- uid: ClassLibraryCS.Collections.Generator.GetRandomDynArray*
+  name: GetRandomDynArray
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_GetRandomDynArray_
+  commentId: Overload:ClassLibraryCS.Collections.Generator.GetRandomDynArray
+  fullName: ClassLibraryCS.Collections.Generator.GetRandomDynArray
+  nameWithType: Generator.GetRandomDynArray
+- uid: ClassLibraryCS.Collections.Generator.GetRandomDynArray``1(System.Range,System.Func{``0})
+  name: GetRandomDynArray<T>(Range, Func<T>)
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_GetRandomDynArray__1_System_Range_System_Func___0__
+  commentId: M:ClassLibraryCS.Collections.Generator.GetRandomDynArray``1(System.Range,System.Func{``0})
+  name.vb: GetRandomDynArray(Of T)(Range, Func(Of T))
+  fullName: ClassLibraryCS.Collections.Generator.GetRandomDynArray<T>(System.Range, System.Func<T>)
+  fullName.vb: ClassLibraryCS.Collections.Generator.GetRandomDynArray(Of T)(System.Range, System.Func(Of T))
+  nameWithType: Generator.GetRandomDynArray<T>(Range, Func<T>)
+  nameWithType.vb: Generator.GetRandomDynArray(Of T)(Range, Func(Of T))
+- uid: ClassLibraryCS.Collections.Generator.GetRandomIntArray(System.Range,System.Int32)
+  name: GetRandomIntArray(Range, int)
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_GetRandomIntArray_System_Range_System_Int32_
+  commentId: M:ClassLibraryCS.Collections.Generator.GetRandomIntArray(System.Range,System.Int32)
+  name.vb: GetRandomIntArray(Range, Integer)
+  fullName: ClassLibraryCS.Collections.Generator.GetRandomIntArray(System.Range, int)
+  fullName.vb: ClassLibraryCS.Collections.Generator.GetRandomIntArray(System.Range, Integer)
+  nameWithType: Generator.GetRandomIntArray(Range, int)
+  nameWithType.vb: Generator.GetRandomIntArray(Range, Integer)
+- uid: ClassLibraryCS.Collections.Generator.GetRandomIntArray*
+  name: GetRandomIntArray
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_GetRandomIntArray_
+  commentId: Overload:ClassLibraryCS.Collections.Generator.GetRandomIntArray
+  fullName: ClassLibraryCS.Collections.Generator.GetRandomIntArray
+  nameWithType: Generator.GetRandomIntArray
+- uid: ClassLibraryCS.Collections.Generator.Rand
+  name: Rand
+  href: api/ClassLibraryCS.Collections.Generator.html#ClassLibraryCS_Collections_Generator_Rand
+  commentId: F:ClassLibraryCS.Collections.Generator.Rand
+  fullName: ClassLibraryCS.Collections.Generator.Rand
+  nameWithType: Generator.Rand
+- uid: ClassLibraryCS.FunctionalEnumerableOperations
+  name: ClassLibraryCS.FunctionalEnumerableOperations
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.html
+  commentId: N:ClassLibraryCS.FunctionalEnumerableOperations
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations
+  nameWithType: ClassLibraryCS.FunctionalEnumerableOperations
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable
+  name: Enumerable
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html
+  commentId: T:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable
+  nameWithType: Enumerable
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.All*
+  name: All
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_All_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.All
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.All
+  nameWithType: Enumerable.All
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: All<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_All__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: All(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.All<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.All(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.All<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.All(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Any*
+  name: Any
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Any_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Any
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Any
+  nameWithType: Enumerable.Any
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: Any<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Any__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: Any(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Any(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.Any<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.Any(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Enumerate*
+  name: Enumerate
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Enumerate_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Enumerate
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Enumerate
+  nameWithType: Enumerable.Enumerate
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  name: Enumerate<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Enumerate__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Enumerate(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Enumerate<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Enumerate(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.Enumerate<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.Enumerate(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter*
+  name: Filter
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Filter_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter
+  nameWithType: Enumerable.Filter
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: Filter<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Filter__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: Filter(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.Filter<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.Filter(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
+  name: Filter<TSource>(IEnumerable<TSource>, Func<TSource, int, bool>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Filter__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int32_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
+  name.vb: Filter(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Integer, Boolean))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, int, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Filter(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Integer, Boolean))
+  nameWithType: Enumerable.Filter<TSource>(IEnumerable<TSource>, Func<TSource, int, bool>)
+  nameWithType.vb: Enumerable.Filter(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Integer, Boolean))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault*
+  name: FirstOrDefault
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_FirstOrDefault_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault
+  nameWithType: Enumerable.FirstOrDefault
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})
+  name: FirstOrDefault<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: FirstOrDefault(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.FirstOrDefault<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.FirstOrDefault(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: FirstOrDefault<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: FirstOrDefault(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.FirstOrDefault<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.FirstOrDefault(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},``0)
+  name: FirstOrDefault<TSource>(IEnumerable<TSource>, Func<TSource, bool>, TSource)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean____0_
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},``0)
+  name.vb: FirstOrDefault(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), TSource)
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>, TSource)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.FirstOrDefault(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean), TSource)
+  nameWithType: Enumerable.FirstOrDefault<TSource>(IEnumerable<TSource>, Func<TSource, bool>, TSource)
+  nameWithType.vb: Enumerable.FirstOrDefault(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), TSource)
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold*
+  name: Fold
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Fold_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold
+  nameWithType: Enumerable.Fold
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  name: Fold<TSource>(IEnumerable<TSource>, Func<TSource, TSource, TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Fold__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  name.vb: Fold(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, TSource, TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TSource, TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TSource, TSource))
+  nameWithType: Enumerable.Fold<TSource>(IEnumerable<TSource>, Func<TSource, TSource, TSource>)
+  nameWithType.vb: Enumerable.Fold(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, TSource, TSource))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  name: Fold<TSource, TAccumulate>(IEnumerable<TSource>, TAccumulate, Func<TAccumulate, TSource, TAccumulate>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Fold__2_System_Collections_Generic_IEnumerable___0____1_System_Func___1___0___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  name.vb: Fold(Of TSource, TAccumulate)(IEnumerable(Of TSource), TAccumulate, Func(Of TAccumulate, TSource, TAccumulate))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold<TSource, TAccumulate>(System.Collections.Generic.IEnumerable<TSource>, TAccumulate, System.Func<TAccumulate, TSource, TAccumulate>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Fold(Of TSource, TAccumulate)(System.Collections.Generic.IEnumerable(Of TSource), TAccumulate, System.Func(Of TAccumulate, TSource, TAccumulate))
+  nameWithType: Enumerable.Fold<TSource, TAccumulate>(IEnumerable<TSource>, TAccumulate, Func<TAccumulate, TSource, TAccumulate>)
+  nameWithType.vb: Enumerable.Fold(Of TSource, TAccumulate)(IEnumerable(Of TSource), TAccumulate, Func(Of TAccumulate, TSource, TAccumulate))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Let*
+  name: Let
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Let_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Let
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Let
+  nameWithType: Enumerable.Let
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Let``2(``0,System.Func{``0,``1})
+  name: Let<TSource, TResult>(TSource, Func<TSource, TResult>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Let__2___0_System_Func___0___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Let``2(``0,System.Func{``0,``1})
+  name.vb: Let(Of TSource, TResult)(TSource, Func(Of TSource, TResult))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Let<TSource, TResult>(TSource, System.Func<TSource, TResult>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Let(Of TSource, TResult)(TSource, System.Func(Of TSource, TResult))
+  nameWithType: Enumerable.Let<TSource, TResult>(TSource, Func<TSource, TResult>)
+  nameWithType.vb: Enumerable.Let(Of TSource, TResult)(TSource, Func(Of TSource, TResult))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Map*
+  name: Map
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Map_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Map
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Map
+  nameWithType: Enumerable.Map
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Map``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: Map<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Map__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Map``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: Map(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Map<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Map(Of TSource, TResult)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TResult))
+  nameWithType: Enumerable.Map<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  nameWithType.vb: Enumerable.Map(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max*
+  name: Max
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Max_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max
+  nameWithType: Enumerable.Max
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0})
+  name: Max<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Max__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Max(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.Max<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.Max(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: Max<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Max__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: Max(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Max(Of TSource, TResult)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TResult))
+  nameWithType: Enumerable.Max<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  nameWithType.vb: Enumerable.Max(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min*
+  name: Min
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Min_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min
+  nameWithType: Enumerable.Min
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0})
+  name: Min<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Min__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Min(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.Min<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.Min(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: Min<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Min__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: Min(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Min(Of TSource, TResult)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TResult))
+  nameWithType: Enumerable.Min<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  nameWithType.vb: Enumerable.Min(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderBy*
+  name: OrderBy
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_OrderBy_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderBy
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderBy
+  nameWithType: Enumerable.OrderBy
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderByDescending*
+  name: OrderByDescending
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_OrderByDescending_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderByDescending
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderByDescending
+  nameWithType: Enumerable.OrderByDescending
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name: OrderByDescending<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_OrderByDescending__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name.vb: OrderByDescending(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderByDescending<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>?)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderByDescending(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IComparer(Of TKey))
+  nameWithType: Enumerable.OrderByDescending<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  nameWithType.vb: Enumerable.OrderByDescending(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name: OrderBy<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_OrderBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name.vb: OrderBy(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>?)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.OrderBy(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IComparer(Of TKey))
+  nameWithType: Enumerable.OrderBy<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  nameWithType.vb: Enumerable.OrderBy(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Skip*
+  name: Skip
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Skip_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Skip
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Skip
+  nameWithType: Enumerable.Skip
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.SkipWhile*
+  name: SkipWhile
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_SkipWhile_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.SkipWhile
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.SkipWhile
+  nameWithType: Enumerable.SkipWhile
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: SkipWhile<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_SkipWhile__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: SkipWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.SkipWhile<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.SkipWhile(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.SkipWhile<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.SkipWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Skip<TSource>(IEnumerable<TSource>, int)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Skip__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: Skip(Of TSource)(IEnumerable(Of TSource), Integer)
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Skip(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), Integer)
+  nameWithType: Enumerable.Skip<TSource>(IEnumerable<TSource>, int)
+  nameWithType.vb: Enumerable.Skip(Of TSource)(IEnumerable(Of TSource), Integer)
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Take*
+  name: Take
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Take_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Take
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Take
+  nameWithType: Enumerable.Take
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.TakeWhile*
+  name: TakeWhile
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_TakeWhile_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.TakeWhile
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.TakeWhile
+  nameWithType: Enumerable.TakeWhile
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: TakeWhile<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_TakeWhile__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: TakeWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.TakeWhile<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.TakeWhile(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.TakeWhile<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.TakeWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Take<TSource>(IEnumerable<TSource>, int)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Take__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: Take(Of TSource)(IEnumerable(Of TSource), Integer)
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.Take(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), Integer)
+  nameWithType: Enumerable.Take<TSource>(IEnumerable<TSource>, int)
+  nameWithType.vb: Enumerable.Take(Of TSource)(IEnumerable(Of TSource), Integer)
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenBy*
+  name: ThenBy
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ThenBy_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenBy
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenBy
+  nameWithType: Enumerable.ThenBy
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenByDescending*
+  name: ThenByDescending
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ThenByDescending_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenByDescending
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenByDescending
+  nameWithType: Enumerable.ThenByDescending
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name: ThenByDescending<TSource, TKey>(IOrderedEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ThenByDescending__2_System_Linq_IOrderedEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name.vb: ThenByDescending(Of TSource, TKey)(IOrderedEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenByDescending<TSource, TKey>(System.Linq.IOrderedEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>?)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenByDescending(Of TSource, TKey)(System.Linq.IOrderedEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IComparer(Of TKey))
+  nameWithType: Enumerable.ThenByDescending<TSource, TKey>(IOrderedEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  nameWithType.vb: Enumerable.ThenByDescending(Of TSource, TKey)(IOrderedEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name: ThenBy<TSource, TKey>(IOrderedEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ThenBy__2_System_Linq_IOrderedEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name.vb: ThenBy(Of TSource, TKey)(IOrderedEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenBy<TSource, TKey>(System.Linq.IOrderedEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>?)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ThenBy(Of TSource, TKey)(System.Linq.IOrderedEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IComparer(Of TKey))
+  nameWithType: Enumerable.ThenBy<TSource, TKey>(IOrderedEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  nameWithType.vb: Enumerable.ThenBy(Of TSource, TKey)(IOrderedEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToArray*
+  name: ToArray
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ToArray_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToArray
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToArray
+  nameWithType: Enumerable.ToArray
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToArray<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ToArray__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToArray(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToArray(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.ToArray<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.ToArray(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToDynArray*
+  name: ToDynArray
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ToDynArray_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToDynArray
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToDynArray
+  nameWithType: Enumerable.ToDynArray
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToDynArray``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToDynArray<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ToDynArray__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToDynArray``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToDynArray(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToDynArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToDynArray(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.ToDynArray<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.ToDynArray(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToList*
+  name: ToList
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ToList_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToList
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToList
+  nameWithType: Enumerable.ToList
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToList<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ToList__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToList(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToList(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.ToList<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.ToList(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToSet*
+  name: ToSet
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ToSet_
+  commentId: Overload:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToSet
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToSet
+  nameWithType: Enumerable.ToSet
+- uid: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToSet``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToSet<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_ToSet__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToSet``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToSet(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToSet<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToSet(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.ToSet<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.ToSet(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryFS
+  name: ClassLibraryFS
+  href: api/ClassLibraryFS.html
+  commentId: N:ClassLibraryFS
+  fullName: ClassLibraryFS
+  nameWithType: ClassLibraryFS
+- uid: ClassLibraryFS.Coloring
+  name: Coloring
+  href: api/ClassLibraryFS.Coloring.html
+  commentId: T:ClassLibraryFS.Coloring
+  fullName: ClassLibraryFS.Coloring
+  nameWithType: Coloring
+- uid: ClassLibraryFS.Coloring.StringExtension
+  name: Coloring.StringExtension
+  href: api/ClassLibraryFS.Coloring.StringExtension.html
+  commentId: T:ClassLibraryFS.Coloring.StringExtension
+  fullName: ClassLibraryFS.Coloring.StringExtension
+  nameWithType: Coloring.StringExtension
+- uid: ClassLibraryFS.Coloring.StringExtension.#ctor
+  name: StringExtension()
+  href: api/ClassLibraryFS.Coloring.StringExtension.html#ClassLibraryFS_Coloring_StringExtension__ctor
+  commentId: M:ClassLibraryFS.Coloring.StringExtension.#ctor
+  name.vb: New()
+  fullName: ClassLibraryFS.Coloring.StringExtension.StringExtension()
+  fullName.vb: ClassLibraryFS.Coloring.StringExtension.New()
+  nameWithType: Coloring.StringExtension.StringExtension()
+  nameWithType.vb: Coloring.StringExtension.New()
+- uid: ClassLibraryFS.Coloring.StringExtension.#ctor*
+  name: StringExtension
+  href: api/ClassLibraryFS.Coloring.StringExtension.html#ClassLibraryFS_Coloring_StringExtension__ctor_
+  commentId: Overload:ClassLibraryFS.Coloring.StringExtension.#ctor
+  name.vb: New
+  fullName: ClassLibraryFS.Coloring.StringExtension.StringExtension
+  fullName.vb: ClassLibraryFS.Coloring.StringExtension.New
+  nameWithType: Coloring.StringExtension.StringExtension
+  nameWithType.vb: Coloring.StringExtension.New
+- uid: ClassLibraryFS.Coloring.StringExtension.WrapEscColor(System.String,System.ConsoleColor)
+  name: WrapEscColor(string, ConsoleColor)
+  href: api/ClassLibraryFS.Coloring.StringExtension.html#ClassLibraryFS_Coloring_StringExtension_WrapEscColor_System_String_System_ConsoleColor_
+  commentId: M:ClassLibraryFS.Coloring.StringExtension.WrapEscColor(System.String,System.ConsoleColor)
+  name.vb: WrapEscColor(String, ConsoleColor)
+  fullName: ClassLibraryFS.Coloring.StringExtension.WrapEscColor(string, System.ConsoleColor)
+  fullName.vb: ClassLibraryFS.Coloring.StringExtension.WrapEscColor(String, System.ConsoleColor)
+  nameWithType: Coloring.StringExtension.WrapEscColor(string, ConsoleColor)
+  nameWithType.vb: Coloring.StringExtension.WrapEscColor(String, ConsoleColor)
+- uid: ClassLibraryFS.Coloring.StringExtension.WrapEscColor*
+  name: WrapEscColor
+  href: api/ClassLibraryFS.Coloring.StringExtension.html#ClassLibraryFS_Coloring_StringExtension_WrapEscColor_
+  commentId: Overload:ClassLibraryFS.Coloring.StringExtension.WrapEscColor
+  fullName: ClassLibraryFS.Coloring.StringExtension.WrapEscColor
+  nameWithType: Coloring.StringExtension.WrapEscColor
+- uid: ClassLibraryFS.Coloring.Theme
+  name: Coloring.Theme
+  href: api/ClassLibraryFS.Coloring.Theme.html
+  commentId: T:ClassLibraryFS.Coloring.Theme
+  fullName: ClassLibraryFS.Coloring.Theme
+  nameWithType: Coloring.Theme
+- uid: ClassLibraryFS.Coloring.Theme.#ctor(System.ConsoleColor,System.ConsoleColor,System.ConsoleColor,System.ConsoleColor,System.ConsoleColor)
+  name: Theme(ConsoleColor, ConsoleColor, ConsoleColor, ConsoleColor, ConsoleColor)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme__ctor_System_ConsoleColor_System_ConsoleColor_System_ConsoleColor_System_ConsoleColor_System_ConsoleColor_
+  commentId: M:ClassLibraryFS.Coloring.Theme.#ctor(System.ConsoleColor,System.ConsoleColor,System.ConsoleColor,System.ConsoleColor,System.ConsoleColor)
+  name.vb: New(ConsoleColor, ConsoleColor, ConsoleColor, ConsoleColor, ConsoleColor)
+  fullName: ClassLibraryFS.Coloring.Theme.Theme(System.ConsoleColor, System.ConsoleColor, System.ConsoleColor, System.ConsoleColor, System.ConsoleColor)
+  fullName.vb: ClassLibraryFS.Coloring.Theme.New(System.ConsoleColor, System.ConsoleColor, System.ConsoleColor, System.ConsoleColor, System.ConsoleColor)
+  nameWithType: Coloring.Theme.Theme(ConsoleColor, ConsoleColor, ConsoleColor, ConsoleColor, ConsoleColor)
+  nameWithType.vb: Coloring.Theme.New(ConsoleColor, ConsoleColor, ConsoleColor, ConsoleColor, ConsoleColor)
+- uid: ClassLibraryFS.Coloring.Theme.#ctor*
+  name: Theme
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme__ctor_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.#ctor
+  name.vb: New
+  fullName: ClassLibraryFS.Coloring.Theme.Theme
+  fullName.vb: ClassLibraryFS.Coloring.Theme.New
+  nameWithType: Coloring.Theme.Theme
+  nameWithType.vb: Coloring.Theme.New
+- uid: ClassLibraryFS.Coloring.Theme.BlueAccents
+  name: BlueAccents
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_BlueAccents
+  commentId: P:ClassLibraryFS.Coloring.Theme.BlueAccents
+  fullName: ClassLibraryFS.Coloring.Theme.BlueAccents
+  nameWithType: Coloring.Theme.BlueAccents
+- uid: ClassLibraryFS.Coloring.Theme.BlueAccents*
+  name: BlueAccents
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_BlueAccents_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.BlueAccents
+  fullName: ClassLibraryFS.Coloring.Theme.BlueAccents
+  nameWithType: Coloring.Theme.BlueAccents
+- uid: ClassLibraryFS.Coloring.Theme.Border
+  name: Border
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Border
+  commentId: P:ClassLibraryFS.Coloring.Theme.Border
+  fullName: ClassLibraryFS.Coloring.Theme.Border
+  nameWithType: Coloring.Theme.Border
+- uid: ClassLibraryFS.Coloring.Theme.Border*
+  name: Border
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Border_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Border
+  fullName: ClassLibraryFS.Coloring.Theme.Border
+  nameWithType: Coloring.Theme.Border
+- uid: ClassLibraryFS.Coloring.Theme.Classic
+  name: Classic
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Classic
+  commentId: P:ClassLibraryFS.Coloring.Theme.Classic
+  fullName: ClassLibraryFS.Coloring.Theme.Classic
+  nameWithType: Coloring.Theme.Classic
+- uid: ClassLibraryFS.Coloring.Theme.Classic*
+  name: Classic
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Classic_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Classic
+  fullName: ClassLibraryFS.Coloring.Theme.Classic
+  nameWithType: Coloring.Theme.Classic
+- uid: ClassLibraryFS.Coloring.Theme.Cold
+  name: Cold
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Cold
+  commentId: P:ClassLibraryFS.Coloring.Theme.Cold
+  fullName: ClassLibraryFS.Coloring.Theme.Cold
+  nameWithType: Coloring.Theme.Cold
+- uid: ClassLibraryFS.Coloring.Theme.Cold*
+  name: Cold
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Cold_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Cold
+  fullName: ClassLibraryFS.Coloring.Theme.Cold
+  nameWithType: Coloring.Theme.Cold
+- uid: ClassLibraryFS.Coloring.Theme.CompareTo(ClassLibraryFS.Coloring.Theme)
+  name: CompareTo(Theme)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_CompareTo_ClassLibraryFS_Coloring_Theme_
+  commentId: M:ClassLibraryFS.Coloring.Theme.CompareTo(ClassLibraryFS.Coloring.Theme)
+  fullName: ClassLibraryFS.Coloring.Theme.CompareTo(ClassLibraryFS.Coloring.Theme)
+  nameWithType: Coloring.Theme.CompareTo(Coloring.Theme)
+- uid: ClassLibraryFS.Coloring.Theme.CompareTo(System.Object)
+  name: CompareTo(object)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_CompareTo_System_Object_
+  commentId: M:ClassLibraryFS.Coloring.Theme.CompareTo(System.Object)
+  name.vb: CompareTo(Object)
+  fullName: ClassLibraryFS.Coloring.Theme.CompareTo(object)
+  fullName.vb: ClassLibraryFS.Coloring.Theme.CompareTo(Object)
+  nameWithType: Coloring.Theme.CompareTo(object)
+  nameWithType.vb: Coloring.Theme.CompareTo(Object)
+- uid: ClassLibraryFS.Coloring.Theme.CompareTo(System.Object,System.Collections.IComparer)
+  name: CompareTo(object, IComparer)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_CompareTo_System_Object_System_Collections_IComparer_
+  commentId: M:ClassLibraryFS.Coloring.Theme.CompareTo(System.Object,System.Collections.IComparer)
+  name.vb: CompareTo(Object, IComparer)
+  fullName: ClassLibraryFS.Coloring.Theme.CompareTo(object, System.Collections.IComparer)
+  fullName.vb: ClassLibraryFS.Coloring.Theme.CompareTo(Object, System.Collections.IComparer)
+  nameWithType: Coloring.Theme.CompareTo(object, IComparer)
+  nameWithType.vb: Coloring.Theme.CompareTo(Object, IComparer)
+- uid: ClassLibraryFS.Coloring.Theme.CompareTo*
+  name: CompareTo
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_CompareTo_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.CompareTo
+  fullName: ClassLibraryFS.Coloring.Theme.CompareTo
+  nameWithType: Coloring.Theme.CompareTo
+- uid: ClassLibraryFS.Coloring.Theme.Default
+  name: Default
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Default
+  commentId: P:ClassLibraryFS.Coloring.Theme.Default
+  fullName: ClassLibraryFS.Coloring.Theme.Default
+  nameWithType: Coloring.Theme.Default
+- uid: ClassLibraryFS.Coloring.Theme.Default*
+  name: Default
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Default_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Default
+  fullName: ClassLibraryFS.Coloring.Theme.Default
+  nameWithType: Coloring.Theme.Default
+- uid: ClassLibraryFS.Coloring.Theme.Equals(ClassLibraryFS.Coloring.Theme)
+  name: Equals(Theme)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Equals_ClassLibraryFS_Coloring_Theme_
+  commentId: M:ClassLibraryFS.Coloring.Theme.Equals(ClassLibraryFS.Coloring.Theme)
+  fullName: ClassLibraryFS.Coloring.Theme.Equals(ClassLibraryFS.Coloring.Theme)
+  nameWithType: Coloring.Theme.Equals(Coloring.Theme)
+- uid: ClassLibraryFS.Coloring.Theme.Equals(ClassLibraryFS.Coloring.Theme,System.Collections.IEqualityComparer)
+  name: Equals(Theme, IEqualityComparer)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Equals_ClassLibraryFS_Coloring_Theme_System_Collections_IEqualityComparer_
+  commentId: M:ClassLibraryFS.Coloring.Theme.Equals(ClassLibraryFS.Coloring.Theme,System.Collections.IEqualityComparer)
+  fullName: ClassLibraryFS.Coloring.Theme.Equals(ClassLibraryFS.Coloring.Theme, System.Collections.IEqualityComparer)
+  nameWithType: Coloring.Theme.Equals(Coloring.Theme, IEqualityComparer)
+- uid: ClassLibraryFS.Coloring.Theme.Equals(System.Object)
+  name: Equals(object)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Equals_System_Object_
+  commentId: M:ClassLibraryFS.Coloring.Theme.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ClassLibraryFS.Coloring.Theme.Equals(object)
+  fullName.vb: ClassLibraryFS.Coloring.Theme.Equals(Object)
+  nameWithType: Coloring.Theme.Equals(object)
+  nameWithType.vb: Coloring.Theme.Equals(Object)
+- uid: ClassLibraryFS.Coloring.Theme.Equals(System.Object,System.Collections.IEqualityComparer)
+  name: Equals(object, IEqualityComparer)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Equals_System_Object_System_Collections_IEqualityComparer_
+  commentId: M:ClassLibraryFS.Coloring.Theme.Equals(System.Object,System.Collections.IEqualityComparer)
+  name.vb: Equals(Object, IEqualityComparer)
+  fullName: ClassLibraryFS.Coloring.Theme.Equals(object, System.Collections.IEqualityComparer)
+  fullName.vb: ClassLibraryFS.Coloring.Theme.Equals(Object, System.Collections.IEqualityComparer)
+  nameWithType: Coloring.Theme.Equals(object, IEqualityComparer)
+  nameWithType.vb: Coloring.Theme.Equals(Object, IEqualityComparer)
+- uid: ClassLibraryFS.Coloring.Theme.Equals*
+  name: Equals
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Equals_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Equals
+  fullName: ClassLibraryFS.Coloring.Theme.Equals
+  nameWithType: Coloring.Theme.Equals
+- uid: ClassLibraryFS.Coloring.Theme.Forest
+  name: Forest
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Forest
+  commentId: P:ClassLibraryFS.Coloring.Theme.Forest
+  fullName: ClassLibraryFS.Coloring.Theme.Forest
+  nameWithType: Coloring.Theme.Forest
+- uid: ClassLibraryFS.Coloring.Theme.Forest*
+  name: Forest
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Forest_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Forest
+  fullName: ClassLibraryFS.Coloring.Theme.Forest
+  nameWithType: Coloring.Theme.Forest
+- uid: ClassLibraryFS.Coloring.Theme.GetHashCode
+  name: GetHashCode()
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_GetHashCode
+  commentId: M:ClassLibraryFS.Coloring.Theme.GetHashCode
+  fullName: ClassLibraryFS.Coloring.Theme.GetHashCode()
+  nameWithType: Coloring.Theme.GetHashCode()
+- uid: ClassLibraryFS.Coloring.Theme.GetHashCode(System.Collections.IEqualityComparer)
+  name: GetHashCode(IEqualityComparer)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_GetHashCode_System_Collections_IEqualityComparer_
+  commentId: M:ClassLibraryFS.Coloring.Theme.GetHashCode(System.Collections.IEqualityComparer)
+  fullName: ClassLibraryFS.Coloring.Theme.GetHashCode(System.Collections.IEqualityComparer)
+  nameWithType: Coloring.Theme.GetHashCode(IEqualityComparer)
+- uid: ClassLibraryFS.Coloring.Theme.GetHashCode*
+  name: GetHashCode
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_GetHashCode_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.GetHashCode
+  fullName: ClassLibraryFS.Coloring.Theme.GetHashCode
+  nameWithType: Coloring.Theme.GetHashCode
+- uid: ClassLibraryFS.Coloring.Theme.Hackerman
+  name: Hackerman
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Hackerman
+  commentId: P:ClassLibraryFS.Coloring.Theme.Hackerman
+  fullName: ClassLibraryFS.Coloring.Theme.Hackerman
+  nameWithType: Coloring.Theme.Hackerman
+- uid: ClassLibraryFS.Coloring.Theme.Hackerman*
+  name: Hackerman
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Hackerman_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Hackerman
+  fullName: ClassLibraryFS.Coloring.Theme.Hackerman
+  nameWithType: Coloring.Theme.Hackerman
+- uid: ClassLibraryFS.Coloring.Theme.Header
+  name: Header
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Header
+  commentId: P:ClassLibraryFS.Coloring.Theme.Header
+  fullName: ClassLibraryFS.Coloring.Theme.Header
+  nameWithType: Coloring.Theme.Header
+- uid: ClassLibraryFS.Coloring.Theme.Header*
+  name: Header
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Header_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Header
+  fullName: ClassLibraryFS.Coloring.Theme.Header
+  nameWithType: Coloring.Theme.Header
+- uid: ClassLibraryFS.Coloring.Theme.Key
+  name: Key
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Key
+  commentId: P:ClassLibraryFS.Coloring.Theme.Key
+  fullName: ClassLibraryFS.Coloring.Theme.Key
+  nameWithType: Coloring.Theme.Key
+- uid: ClassLibraryFS.Coloring.Theme.Key*
+  name: Key
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Key_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Key
+  fullName: ClassLibraryFS.Coloring.Theme.Key
+  nameWithType: Coloring.Theme.Key
+- uid: ClassLibraryFS.Coloring.Theme.Ocean
+  name: Ocean
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Ocean
+  commentId: P:ClassLibraryFS.Coloring.Theme.Ocean
+  fullName: ClassLibraryFS.Coloring.Theme.Ocean
+  nameWithType: Coloring.Theme.Ocean
+- uid: ClassLibraryFS.Coloring.Theme.Ocean*
+  name: Ocean
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Ocean_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Ocean
+  fullName: ClassLibraryFS.Coloring.Theme.Ocean
+  nameWithType: Coloring.Theme.Ocean
+- uid: ClassLibraryFS.Coloring.Theme.Other
+  name: Other
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Other
+  commentId: P:ClassLibraryFS.Coloring.Theme.Other
+  fullName: ClassLibraryFS.Coloring.Theme.Other
+  nameWithType: Coloring.Theme.Other
+- uid: ClassLibraryFS.Coloring.Theme.Other*
+  name: Other
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Other_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Other
+  fullName: ClassLibraryFS.Coloring.Theme.Other
+  nameWithType: Coloring.Theme.Other
+- uid: ClassLibraryFS.Coloring.Theme.Sunset
+  name: Sunset
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Sunset
+  commentId: P:ClassLibraryFS.Coloring.Theme.Sunset
+  fullName: ClassLibraryFS.Coloring.Theme.Sunset
+  nameWithType: Coloring.Theme.Sunset
+- uid: ClassLibraryFS.Coloring.Theme.Sunset*
+  name: Sunset
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Sunset_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Sunset
+  fullName: ClassLibraryFS.Coloring.Theme.Sunset
+  nameWithType: Coloring.Theme.Sunset
+- uid: ClassLibraryFS.Coloring.Theme.ToString
+  name: ToString()
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_ToString
+  commentId: M:ClassLibraryFS.Coloring.Theme.ToString
+  fullName: ClassLibraryFS.Coloring.Theme.ToString()
+  nameWithType: Coloring.Theme.ToString()
+- uid: ClassLibraryFS.Coloring.Theme.ToString*
+  name: ToString
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_ToString_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.ToString
+  fullName: ClassLibraryFS.Coloring.Theme.ToString
+  nameWithType: Coloring.Theme.ToString
+- uid: ClassLibraryFS.Coloring.Theme.Value
+  name: Value
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Value
+  commentId: P:ClassLibraryFS.Coloring.Theme.Value
+  fullName: ClassLibraryFS.Coloring.Theme.Value
+  nameWithType: Coloring.Theme.Value
+- uid: ClassLibraryFS.Coloring.Theme.Value*
+  name: Value
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Value_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Value
+  fullName: ClassLibraryFS.Coloring.Theme.Value
+  nameWithType: Coloring.Theme.Value
+- uid: ClassLibraryFS.Coloring.Theme.Warm
+  name: Warm
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Warm
+  commentId: P:ClassLibraryFS.Coloring.Theme.Warm
+  fullName: ClassLibraryFS.Coloring.Theme.Warm
+  nameWithType: Coloring.Theme.Warm
+- uid: ClassLibraryFS.Coloring.Theme.Warm*
+  name: Warm
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_Warm_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.Warm
+  fullName: ClassLibraryFS.Coloring.Theme.Warm
+  nameWithType: Coloring.Theme.Warm
+- uid: ClassLibraryFS.Coloring.Theme.parseTheme(System.String)
+  name: parseTheme(string)
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_parseTheme_System_String_
+  commentId: M:ClassLibraryFS.Coloring.Theme.parseTheme(System.String)
+  name.vb: parseTheme(String)
+  fullName: ClassLibraryFS.Coloring.Theme.parseTheme(string)
+  fullName.vb: ClassLibraryFS.Coloring.Theme.parseTheme(String)
+  nameWithType: Coloring.Theme.parseTheme(string)
+  nameWithType.vb: Coloring.Theme.parseTheme(String)
+- uid: ClassLibraryFS.Coloring.Theme.parseTheme*
+  name: parseTheme
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_parseTheme_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.parseTheme
+  fullName: ClassLibraryFS.Coloring.Theme.parseTheme
+  nameWithType: Coloring.Theme.parseTheme
+- uid: ClassLibraryFS.Coloring.Theme.themes
+  name: themes
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_themes
+  commentId: P:ClassLibraryFS.Coloring.Theme.themes
+  fullName: ClassLibraryFS.Coloring.Theme.themes
+  nameWithType: Coloring.Theme.themes
+- uid: ClassLibraryFS.Coloring.Theme.themes*
+  name: themes
+  href: api/ClassLibraryFS.Coloring.Theme.html#ClassLibraryFS_Coloring_Theme_themes_
+  commentId: Overload:ClassLibraryFS.Coloring.Theme.themes
+  fullName: ClassLibraryFS.Coloring.Theme.themes
+  nameWithType: Coloring.Theme.themes
+- uid: ClassLibraryFS.Coloring.WrapEscColor
+  name: Coloring.WrapEscColor
+  href: api/ClassLibraryFS.Coloring.WrapEscColor.html
+  commentId: T:ClassLibraryFS.Coloring.WrapEscColor
+  fullName: ClassLibraryFS.Coloring.WrapEscColor
+  nameWithType: Coloring.WrapEscColor
+- uid: ClassLibraryFS.Coloring.WrapEscColor.#ctor
+  name: WrapEscColor()
+  href: api/ClassLibraryFS.Coloring.WrapEscColor.html#ClassLibraryFS_Coloring_WrapEscColor__ctor
+  commentId: M:ClassLibraryFS.Coloring.WrapEscColor.#ctor
+  name.vb: New()
+  fullName: ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor()
+  fullName.vb: ClassLibraryFS.Coloring.WrapEscColor.New()
+  nameWithType: Coloring.WrapEscColor.WrapEscColor()
+  nameWithType.vb: Coloring.WrapEscColor.New()
+- uid: ClassLibraryFS.Coloring.WrapEscColor.#ctor*
+  name: WrapEscColor
+  href: api/ClassLibraryFS.Coloring.WrapEscColor.html#ClassLibraryFS_Coloring_WrapEscColor__ctor_
+  commentId: Overload:ClassLibraryFS.Coloring.WrapEscColor.#ctor
+  name.vb: New
+  fullName: ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor
+  fullName.vb: ClassLibraryFS.Coloring.WrapEscColor.New
+  nameWithType: Coloring.WrapEscColor.WrapEscColor
+  nameWithType.vb: Coloring.WrapEscColor.New
+- uid: ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor(System.String,System.ConsoleColor)
+  name: WrapEscColor(string, ConsoleColor)
+  href: api/ClassLibraryFS.Coloring.WrapEscColor.html#ClassLibraryFS_Coloring_WrapEscColor_WrapEscColor_System_String_System_ConsoleColor_
+  commentId: M:ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor(System.String,System.ConsoleColor)
+  name.vb: WrapEscColor(String, ConsoleColor)
+  fullName: ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor(string, System.ConsoleColor)
+  fullName.vb: ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor(String, System.ConsoleColor)
+  nameWithType: Coloring.WrapEscColor.WrapEscColor(string, ConsoleColor)
+  nameWithType.vb: Coloring.WrapEscColor.WrapEscColor(String, ConsoleColor)
+- uid: ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor*
+  name: WrapEscColor
+  href: api/ClassLibraryFS.Coloring.WrapEscColor.html#ClassLibraryFS_Coloring_WrapEscColor_WrapEscColor_
+  commentId: Overload:ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor
+  fullName: ClassLibraryFS.Coloring.WrapEscColor.WrapEscColor
+  nameWithType: Coloring.WrapEscColor.WrapEscColor
+- uid: ClassLibraryFS.Coloring.WrapEscColorExtension
+  name: Coloring.WrapEscColorExtension
+  href: api/ClassLibraryFS.Coloring.WrapEscColorExtension.html
+  commentId: T:ClassLibraryFS.Coloring.WrapEscColorExtension
+  fullName: ClassLibraryFS.Coloring.WrapEscColorExtension
+  nameWithType: Coloring.WrapEscColorExtension
+- uid: ClassLibraryFS.Coloring.WrapEscColorExtension.#ctor
+  name: WrapEscColorExtension()
+  href: api/ClassLibraryFS.Coloring.WrapEscColorExtension.html#ClassLibraryFS_Coloring_WrapEscColorExtension__ctor
+  commentId: M:ClassLibraryFS.Coloring.WrapEscColorExtension.#ctor
+  name.vb: New()
+  fullName: ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColorExtension()
+  fullName.vb: ClassLibraryFS.Coloring.WrapEscColorExtension.New()
+  nameWithType: Coloring.WrapEscColorExtension.WrapEscColorExtension()
+  nameWithType.vb: Coloring.WrapEscColorExtension.New()
+- uid: ClassLibraryFS.Coloring.WrapEscColorExtension.#ctor*
+  name: WrapEscColorExtension
+  href: api/ClassLibraryFS.Coloring.WrapEscColorExtension.html#ClassLibraryFS_Coloring_WrapEscColorExtension__ctor_
+  commentId: Overload:ClassLibraryFS.Coloring.WrapEscColorExtension.#ctor
+  name.vb: New
+  fullName: ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColorExtension
+  fullName.vb: ClassLibraryFS.Coloring.WrapEscColorExtension.New
+  nameWithType: Coloring.WrapEscColorExtension.WrapEscColorExtension
+  nameWithType.vb: Coloring.WrapEscColorExtension.New
+- uid: ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColor(System.String,System.ConsoleColor)
+  name: WrapEscColor(string, ConsoleColor)
+  href: api/ClassLibraryFS.Coloring.WrapEscColorExtension.html#ClassLibraryFS_Coloring_WrapEscColorExtension_WrapEscColor_System_String_System_ConsoleColor_
+  commentId: M:ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColor(System.String,System.ConsoleColor)
+  name.vb: WrapEscColor(String, ConsoleColor)
+  fullName: ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColor(string, System.ConsoleColor)
+  fullName.vb: ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColor(String, System.ConsoleColor)
+  nameWithType: Coloring.WrapEscColorExtension.WrapEscColor(string, ConsoleColor)
+  nameWithType.vb: Coloring.WrapEscColorExtension.WrapEscColor(String, ConsoleColor)
+- uid: ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColor*
+  name: WrapEscColor
+  href: api/ClassLibraryFS.Coloring.WrapEscColorExtension.html#ClassLibraryFS_Coloring_WrapEscColorExtension_WrapEscColor_
+  commentId: Overload:ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColor
+  fullName: ClassLibraryFS.Coloring.WrapEscColorExtension.WrapEscColor
+  nameWithType: Coloring.WrapEscColorExtension.WrapEscColor
+- uid: ClassLibraryFS.Coloring.op_EqualsGreaterGreater(System.ConsoleColor,System.String)
+  name: op_EqualsGreaterGreater(ConsoleColor, string)
+  href: api/ClassLibraryFS.Coloring.html#ClassLibraryFS_Coloring_op_EqualsGreaterGreater_System_ConsoleColor_System_String_
+  commentId: M:ClassLibraryFS.Coloring.op_EqualsGreaterGreater(System.ConsoleColor,System.String)
+  name.vb: op_EqualsGreaterGreater(ConsoleColor, String)
+  fullName: ClassLibraryFS.Coloring.op_EqualsGreaterGreater(System.ConsoleColor, string)
+  fullName.vb: ClassLibraryFS.Coloring.op_EqualsGreaterGreater(System.ConsoleColor, String)
+  nameWithType: Coloring.op_EqualsGreaterGreater(ConsoleColor, string)
+  nameWithType.vb: Coloring.op_EqualsGreaterGreater(ConsoleColor, String)
+- uid: ClassLibraryFS.Coloring.op_EqualsGreaterGreater*
+  name: op_EqualsGreaterGreater
+  href: api/ClassLibraryFS.Coloring.html#ClassLibraryFS_Coloring_op_EqualsGreaterGreater_
+  commentId: Overload:ClassLibraryFS.Coloring.op_EqualsGreaterGreater
+  fullName: ClassLibraryFS.Coloring.op_EqualsGreaterGreater
+  nameWithType: Coloring.op_EqualsGreaterGreater
+- uid: ClassLibraryFS.ConsoleUI
+  name: ConsoleUI
+  href: api/ClassLibraryFS.ConsoleUI.html
+  commentId: T:ClassLibraryFS.ConsoleUI
+  fullName: ClassLibraryFS.ConsoleUI
+  nameWithType: ConsoleUI
+- uid: ClassLibraryFS.ConsoleUI.IContext
+  name: ConsoleUI.IContext
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html
+  commentId: T:ClassLibraryFS.ConsoleUI.IContext
+  fullName: ClassLibraryFS.ConsoleUI.IContext
+  nameWithType: ConsoleUI.IContext
+- uid: ClassLibraryFS.ConsoleUI.IContext.GlobalTheme
+  name: GlobalTheme
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_GlobalTheme
+  commentId: P:ClassLibraryFS.ConsoleUI.IContext.GlobalTheme
+  fullName: ClassLibraryFS.ConsoleUI.IContext.GlobalTheme
+  nameWithType: ConsoleUI.IContext.GlobalTheme
+- uid: ClassLibraryFS.ConsoleUI.IContext.GlobalTheme*
+  name: GlobalTheme
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_GlobalTheme_
+  commentId: Overload:ClassLibraryFS.ConsoleUI.IContext.GlobalTheme
+  fullName: ClassLibraryFS.ConsoleUI.IContext.GlobalTheme
+  nameWithType: ConsoleUI.IContext.GlobalTheme
+- uid: ClassLibraryFS.ConsoleUI.IContext.HelpMenu
+  name: HelpMenu
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_HelpMenu
+  commentId: P:ClassLibraryFS.ConsoleUI.IContext.HelpMenu
+  fullName: ClassLibraryFS.ConsoleUI.IContext.HelpMenu
+  nameWithType: ConsoleUI.IContext.HelpMenu
+- uid: ClassLibraryFS.ConsoleUI.IContext.HelpMenu*
+  name: HelpMenu
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_HelpMenu_
+  commentId: Overload:ClassLibraryFS.ConsoleUI.IContext.HelpMenu
+  fullName: ClassLibraryFS.ConsoleUI.IContext.HelpMenu
+  nameWithType: ConsoleUI.IContext.HelpMenu
+- uid: ClassLibraryFS.ConsoleUI.IContext.Reader
+  name: Reader
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_Reader
+  commentId: P:ClassLibraryFS.ConsoleUI.IContext.Reader
+  fullName: ClassLibraryFS.ConsoleUI.IContext.Reader
+  nameWithType: ConsoleUI.IContext.Reader
+- uid: ClassLibraryFS.ConsoleUI.IContext.Reader*
+  name: Reader
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_Reader_
+  commentId: Overload:ClassLibraryFS.ConsoleUI.IContext.Reader
+  fullName: ClassLibraryFS.ConsoleUI.IContext.Reader
+  nameWithType: ConsoleUI.IContext.Reader
+- uid: ClassLibraryFS.ConsoleUI.IContext.TalkToUser
+  name: TalkToUser
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_TalkToUser
+  commentId: P:ClassLibraryFS.ConsoleUI.IContext.TalkToUser
+  fullName: ClassLibraryFS.ConsoleUI.IContext.TalkToUser
+  nameWithType: ConsoleUI.IContext.TalkToUser
+- uid: ClassLibraryFS.ConsoleUI.IContext.TalkToUser*
+  name: TalkToUser
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_TalkToUser_
+  commentId: Overload:ClassLibraryFS.ConsoleUI.IContext.TalkToUser
+  fullName: ClassLibraryFS.ConsoleUI.IContext.TalkToUser
+  nameWithType: ConsoleUI.IContext.TalkToUser
+- uid: ClassLibraryFS.ConsoleUI.IContext.Writer
+  name: Writer
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_Writer
+  commentId: P:ClassLibraryFS.ConsoleUI.IContext.Writer
+  fullName: ClassLibraryFS.ConsoleUI.IContext.Writer
+  nameWithType: ConsoleUI.IContext.Writer
+- uid: ClassLibraryFS.ConsoleUI.IContext.Writer*
+  name: Writer
+  href: api/ClassLibraryFS.ConsoleUI.IContext.html#ClassLibraryFS_ConsoleUI_IContext_Writer_
+  commentId: Overload:ClassLibraryFS.ConsoleUI.IContext.Writer
+  fullName: ClassLibraryFS.ConsoleUI.IContext.Writer
+  nameWithType: ConsoleUI.IContext.Writer
+- uid: ClassLibraryFS.ConsoleUI.generateTable(System.String,System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.String}},ClassLibraryFS.Coloring.Theme)
+  name: generateTable(string, IEnumerable<Tuple<string, string>>, Theme)
+  href: api/ClassLibraryFS.ConsoleUI.html#ClassLibraryFS_ConsoleUI_generateTable_System_String_System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_String___ClassLibraryFS_Coloring_Theme_
+  commentId: M:ClassLibraryFS.ConsoleUI.generateTable(System.String,System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.String}},ClassLibraryFS.Coloring.Theme)
+  name.vb: generateTable(String, IEnumerable(Of Tuple(Of String, String)), Theme)
+  fullName: ClassLibraryFS.ConsoleUI.generateTable(string, System.Collections.Generic.IEnumerable<System.Tuple<string, string>>, ClassLibraryFS.Coloring.Theme)
+  fullName.vb: ClassLibraryFS.ConsoleUI.generateTable(String, System.Collections.Generic.IEnumerable(Of System.Tuple(Of String, String)), ClassLibraryFS.Coloring.Theme)
+  nameWithType: ConsoleUI.generateTable(string, IEnumerable<Tuple<string, string>>, Coloring.Theme)
+  nameWithType.vb: ConsoleUI.generateTable(String, IEnumerable(Of Tuple(Of String, String)), Coloring.Theme)
+- uid: ClassLibraryFS.ConsoleUI.generateTable*
+  name: generateTable
+  href: api/ClassLibraryFS.ConsoleUI.html#ClassLibraryFS_ConsoleUI_generateTable_
+  commentId: Overload:ClassLibraryFS.ConsoleUI.generateTable
+  fullName: ClassLibraryFS.ConsoleUI.generateTable
+  nameWithType: ConsoleUI.generateTable
+- uid: ClassLibraryFS.ConsoleUI.getIndexedDescriptions*
+  name: getIndexedDescriptions
+  href: api/ClassLibraryFS.ConsoleUI.html#ClassLibraryFS_ConsoleUI_getIndexedDescriptions_
+  commentId: Overload:ClassLibraryFS.ConsoleUI.getIndexedDescriptions
+  fullName: ClassLibraryFS.ConsoleUI.getIndexedDescriptions
+  nameWithType: ConsoleUI.getIndexedDescriptions
+- uid: ClassLibraryFS.ConsoleUI.getIndexedDescriptions``1(System.Collections.Generic.IEnumerable{System.Tuple{System.Int32,System.String,System.Action{``0}}})
+  name: getIndexedDescriptions<T>(IEnumerable<Tuple<int, string, Action<T>>>)
+  href: api/ClassLibraryFS.ConsoleUI.html#ClassLibraryFS_ConsoleUI_getIndexedDescriptions__1_System_Collections_Generic_IEnumerable_System_Tuple_System_Int32_System_String_System_Action___0____
+  commentId: M:ClassLibraryFS.ConsoleUI.getIndexedDescriptions``1(System.Collections.Generic.IEnumerable{System.Tuple{System.Int32,System.String,System.Action{``0}}})
+  name.vb: getIndexedDescriptions(Of T)(IEnumerable(Of Tuple(Of Integer, String, Action(Of T))))
+  fullName: ClassLibraryFS.ConsoleUI.getIndexedDescriptions<T>(System.Collections.Generic.IEnumerable<System.Tuple<int, string, System.Action<T>>>)
+  fullName.vb: ClassLibraryFS.ConsoleUI.getIndexedDescriptions(Of T)(System.Collections.Generic.IEnumerable(Of System.Tuple(Of Integer, String, System.Action(Of T))))
+  nameWithType: ConsoleUI.getIndexedDescriptions<T>(IEnumerable<Tuple<int, string, Action<T>>>)
+  nameWithType.vb: ConsoleUI.getIndexedDescriptions(Of T)(IEnumerable(Of Tuple(Of Integer, String, Action(Of T))))
+- uid: ClassLibraryFS.ConsoleUI.parseTasks*
+  name: parseTasks
+  href: api/ClassLibraryFS.ConsoleUI.html#ClassLibraryFS_ConsoleUI_parseTasks_
+  commentId: Overload:ClassLibraryFS.ConsoleUI.parseTasks
+  fullName: ClassLibraryFS.ConsoleUI.parseTasks
+  nameWithType: ConsoleUI.parseTasks
+- uid: ClassLibraryFS.ConsoleUI.parseTasks``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.Int32,System.ValueTuple{System.Action{``0},System.String}}})
+  name: parseTasks<T>(IEnumerable<KeyValuePair<int, (Action<T>, string)>>)
+  href: api/ClassLibraryFS.ConsoleUI.html#ClassLibraryFS_ConsoleUI_parseTasks__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_Int32_System_ValueTuple_System_Action___0__System_String____
+  commentId: M:ClassLibraryFS.ConsoleUI.parseTasks``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.Int32,System.ValueTuple{System.Action{``0},System.String}}})
+  name.vb: parseTasks(Of T)(IEnumerable(Of KeyValuePair(Of Integer, (Action(Of T), String))))
+  fullName: ClassLibraryFS.ConsoleUI.parseTasks<T>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<int, (System.Action<T>, string)>>)
+  fullName.vb: ClassLibraryFS.ConsoleUI.parseTasks(Of T)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of Integer, (System.Action(Of T), String))))
+  nameWithType: ConsoleUI.parseTasks<T>(IEnumerable<KeyValuePair<int, (Action<T>, string)>>)
+  nameWithType.vb: ConsoleUI.parseTasks(Of T)(IEnumerable(Of KeyValuePair(Of Integer, (Action(Of T), String))))
+- uid: ClassLibraryFS.Text
+  name: Text
+  href: api/ClassLibraryFS.Text.html
+  commentId: T:ClassLibraryFS.Text
+  fullName: ClassLibraryFS.Text
+  nameWithType: Text
+- uid: ClassLibraryFS.Text.center(System.String,System.Int32)
+  name: center(string, int)
+  href: api/ClassLibraryFS.Text.html#ClassLibraryFS_Text_center_System_String_System_Int32_
+  commentId: M:ClassLibraryFS.Text.center(System.String,System.Int32)
+  name.vb: center(String, Integer)
+  fullName: ClassLibraryFS.Text.center(string, int)
+  fullName.vb: ClassLibraryFS.Text.center(String, Integer)
+  nameWithType: Text.center(string, int)
+  nameWithType.vb: Text.center(String, Integer)
+- uid: ClassLibraryFS.Text.center*
+  name: center
+  href: api/ClassLibraryFS.Text.html#ClassLibraryFS_Text_center_
+  commentId: Overload:ClassLibraryFS.Text.center
+  fullName: ClassLibraryFS.Text.center
+  nameWithType: Text.center
+- uid: ClassLibraryFS.Text.numLength(System.Int32)
+  name: numLength(int)
+  href: api/ClassLibraryFS.Text.html#ClassLibraryFS_Text_numLength_System_Int32_
+  commentId: M:ClassLibraryFS.Text.numLength(System.Int32)
+  name.vb: numLength(Integer)
+  fullName: ClassLibraryFS.Text.numLength(int)
+  fullName.vb: ClassLibraryFS.Text.numLength(Integer)
+  nameWithType: Text.numLength(int)
+  nameWithType.vb: Text.numLength(Integer)
+- uid: ClassLibraryFS.Text.numLength*
+  name: numLength
+  href: api/ClassLibraryFS.Text.html#ClassLibraryFS_Text_numLength_
+  commentId: Overload:ClassLibraryFS.Text.numLength
+  fullName: ClassLibraryFS.Text.numLength
+  nameWithType: Text.numLength
+- uid: ClassLibraryVB.IO
+  name: ClassLibraryVB.IO
+  href: api/ClassLibraryVB.IO.html
+  commentId: N:ClassLibraryVB.IO
+  fullName: ClassLibraryVB.IO
+  nameWithType: ClassLibraryVB.IO
+- uid: ClassLibraryVB.IO.Context
+  name: Context
+  href: api/ClassLibraryVB.IO.Context.html
+  commentId: T:ClassLibraryVB.IO.Context
+  fullName: ClassLibraryVB.IO.Context
+  nameWithType: Context
+- uid: ClassLibraryVB.IO.Context.#ctor(System.IO.TextReader,System.IO.TextWriter,System.Boolean,ClassLibraryFS.Coloring.Theme)
+  name: Context(TextReader, TextWriter, bool, Theme)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context__ctor_System_IO_TextReader_System_IO_TextWriter_System_Boolean_ClassLibraryFS_Coloring_Theme_
+  commentId: M:ClassLibraryVB.IO.Context.#ctor(System.IO.TextReader,System.IO.TextWriter,System.Boolean,ClassLibraryFS.Coloring.Theme)
+  name.vb: New(TextReader, TextWriter, Boolean, Theme)
+  fullName: ClassLibraryVB.IO.Context.Context(System.IO.TextReader, System.IO.TextWriter, bool, ClassLibraryFS.Coloring.Theme)
+  fullName.vb: ClassLibraryVB.IO.Context.New(System.IO.TextReader, System.IO.TextWriter, Boolean, ClassLibraryFS.Coloring.Theme)
+  nameWithType: Context.Context(TextReader, TextWriter, bool, Coloring.Theme)
+  nameWithType.vb: Context.New(TextReader, TextWriter, Boolean, Coloring.Theme)
+- uid: ClassLibraryVB.IO.Context.#ctor*
+  name: Context
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context__ctor_
+  commentId: Overload:ClassLibraryVB.IO.Context.#ctor
+  name.vb: New
+  fullName: ClassLibraryVB.IO.Context.Context
+  fullName.vb: ClassLibraryVB.IO.Context.New
+  nameWithType: Context.Context
+  nameWithType.vb: Context.New
+- uid: ClassLibraryVB.IO.Context.Error(System.String)
+  name: Error(string)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Error_System_String_
+  commentId: M:ClassLibraryVB.IO.Context.Error(System.String)
+  name.vb: Error(String)
+  fullName: ClassLibraryVB.IO.Context.Error(string)
+  fullName.vb: ClassLibraryVB.IO.Context.Error(String)
+  nameWithType: Context.Error(string)
+  nameWithType.vb: Context.Error(String)
+- uid: ClassLibraryVB.IO.Context.Error*
+  name: Error
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Error_
+  commentId: Overload:ClassLibraryVB.IO.Context.Error
+  fullName: ClassLibraryVB.IO.Context.Error
+  nameWithType: Context.Error
+- uid: ClassLibraryVB.IO.Context.GlobalTheme
+  name: GlobalTheme
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_GlobalTheme
+  commentId: P:ClassLibraryVB.IO.Context.GlobalTheme
+  fullName: ClassLibraryVB.IO.Context.GlobalTheme
+  nameWithType: Context.GlobalTheme
+- uid: ClassLibraryVB.IO.Context.GlobalTheme*
+  name: GlobalTheme
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_GlobalTheme_
+  commentId: Overload:ClassLibraryVB.IO.Context.GlobalTheme
+  fullName: ClassLibraryVB.IO.Context.GlobalTheme
+  nameWithType: Context.GlobalTheme
+- uid: ClassLibraryVB.IO.Context.HelpMenu
+  name: HelpMenu
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_HelpMenu
+  commentId: P:ClassLibraryVB.IO.Context.HelpMenu
+  fullName: ClassLibraryVB.IO.Context.HelpMenu
+  nameWithType: Context.HelpMenu
+- uid: ClassLibraryVB.IO.Context.HelpMenu*
+  name: HelpMenu
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_HelpMenu_
+  commentId: Overload:ClassLibraryVB.IO.Context.HelpMenu
+  fullName: ClassLibraryVB.IO.Context.HelpMenu
+  nameWithType: Context.HelpMenu
+- uid: ClassLibraryVB.IO.Context.Parse*
+  name: Parse
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Parse_
+  commentId: Overload:ClassLibraryVB.IO.Context.Parse
+  fullName: ClassLibraryVB.IO.Context.Parse
+  nameWithType: Context.Parse
+- uid: ClassLibraryVB.IO.Context.Parse``1(System.String)
+  name: Parse<T>(string)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Parse__1_System_String_
+  commentId: M:ClassLibraryVB.IO.Context.Parse``1(System.String)
+  name.vb: Parse(Of T)(String)
+  fullName: ClassLibraryVB.IO.Context.Parse<T>(string)
+  fullName.vb: ClassLibraryVB.IO.Context.Parse(Of T)(String)
+  nameWithType: Context.Parse<T>(string)
+  nameWithType.vb: Context.Parse(Of T)(String)
+- uid: ClassLibraryVB.IO.Context.Print(System.Object,System.Nullable{System.ConsoleColor})
+  name: Print(object, ConsoleColor?)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Print_System_Object_System_Nullable_System_ConsoleColor__
+  commentId: M:ClassLibraryVB.IO.Context.Print(System.Object,System.Nullable{System.ConsoleColor})
+  name.vb: Print(Object, ConsoleColor?)
+  fullName: ClassLibraryVB.IO.Context.Print(object, System.ConsoleColor?)
+  fullName.vb: ClassLibraryVB.IO.Context.Print(Object, System.ConsoleColor?)
+  nameWithType: Context.Print(object, ConsoleColor?)
+  nameWithType.vb: Context.Print(Object, ConsoleColor?)
+- uid: ClassLibraryVB.IO.Context.Print*
+  name: Print
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Print_
+  commentId: Overload:ClassLibraryVB.IO.Context.Print
+  fullName: ClassLibraryVB.IO.Context.Print
+  nameWithType: Context.Print
+- uid: ClassLibraryVB.IO.Context.PrintLine(System.Object,System.Nullable{System.ConsoleColor})
+  name: PrintLine(object, ConsoleColor?)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_PrintLine_System_Object_System_Nullable_System_ConsoleColor__
+  commentId: M:ClassLibraryVB.IO.Context.PrintLine(System.Object,System.Nullable{System.ConsoleColor})
+  name.vb: PrintLine(Object, ConsoleColor?)
+  fullName: ClassLibraryVB.IO.Context.PrintLine(object, System.ConsoleColor?)
+  fullName.vb: ClassLibraryVB.IO.Context.PrintLine(Object, System.ConsoleColor?)
+  nameWithType: Context.PrintLine(object, ConsoleColor?)
+  nameWithType.vb: Context.PrintLine(Object, ConsoleColor?)
+- uid: ClassLibraryVB.IO.Context.PrintLine*
+  name: PrintLine
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_PrintLine_
+  commentId: Overload:ClassLibraryVB.IO.Context.PrintLine
+  fullName: ClassLibraryVB.IO.Context.PrintLine
+  nameWithType: Context.PrintLine
+- uid: ClassLibraryVB.IO.Context.ReadArrayInline*
+  name: ReadArrayInline
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_ReadArrayInline_
+  commentId: Overload:ClassLibraryVB.IO.Context.ReadArrayInline
+  fullName: ClassLibraryVB.IO.Context.ReadArrayInline
+  nameWithType: Context.ReadArrayInline
+- uid: ClassLibraryVB.IO.Context.ReadArrayInline``1
+  name: ReadArrayInline<T>()
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_ReadArrayInline__1
+  commentId: M:ClassLibraryVB.IO.Context.ReadArrayInline``1
+  name.vb: ReadArrayInline(Of T)()
+  fullName: ClassLibraryVB.IO.Context.ReadArrayInline<T>()
+  fullName.vb: ClassLibraryVB.IO.Context.ReadArrayInline(Of T)()
+  nameWithType: Context.ReadArrayInline<T>()
+  nameWithType.vb: Context.ReadArrayInline(Of T)()
+- uid: ClassLibraryVB.IO.Context.ReadArrayInline``1(System.Converter{System.String,``0})
+  name: ReadArrayInline<T>(Converter<string, T>)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_ReadArrayInline__1_System_Converter_System_String___0__
+  commentId: M:ClassLibraryVB.IO.Context.ReadArrayInline``1(System.Converter{System.String,``0})
+  name.vb: ReadArrayInline(Of T)(Converter(Of String, T))
+  fullName: ClassLibraryVB.IO.Context.ReadArrayInline<T>(System.Converter<string, T>)
+  fullName.vb: ClassLibraryVB.IO.Context.ReadArrayInline(Of T)(System.Converter(Of String, T))
+  nameWithType: Context.ReadArrayInline<T>(Converter<string, T>)
+  nameWithType.vb: Context.ReadArrayInline(Of T)(Converter(Of String, T))
+- uid: ClassLibraryVB.IO.Context.ReadArrayRandom*
+  name: ReadArrayRandom
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_ReadArrayRandom_
+  commentId: Overload:ClassLibraryVB.IO.Context.ReadArrayRandom
+  fullName: ClassLibraryVB.IO.Context.ReadArrayRandom
+  nameWithType: Context.ReadArrayRandom
+- uid: ClassLibraryVB.IO.Context.ReadArrayRandom``1(System.Func{``0})
+  name: ReadArrayRandom<T>(Func<T>)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_ReadArrayRandom__1_System_Func___0__
+  commentId: M:ClassLibraryVB.IO.Context.ReadArrayRandom``1(System.Func{``0})
+  name.vb: ReadArrayRandom(Of T)(Func(Of T))
+  fullName: ClassLibraryVB.IO.Context.ReadArrayRandom<T>(System.Func<T>)
+  fullName.vb: ClassLibraryVB.IO.Context.ReadArrayRandom(Of T)(System.Func(Of T))
+  nameWithType: Context.ReadArrayRandom<T>(Func<T>)
+  nameWithType.vb: Context.ReadArrayRandom(Of T)(Func(Of T))
+- uid: ClassLibraryVB.IO.Context.Reader
+  name: Reader
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Reader
+  commentId: P:ClassLibraryVB.IO.Context.Reader
+  fullName: ClassLibraryVB.IO.Context.Reader
+  nameWithType: Context.Reader
+- uid: ClassLibraryVB.IO.Context.Reader*
+  name: Reader
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Reader_
+  commentId: Overload:ClassLibraryVB.IO.Context.Reader
+  fullName: ClassLibraryVB.IO.Context.Reader
+  nameWithType: Context.Reader
+- uid: ClassLibraryVB.IO.Context.Request(System.String,ClassLibraryVB.IO.RequestStyle)
+  name: Request(string, RequestStyle)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Request_System_String_ClassLibraryVB_IO_RequestStyle_
+  commentId: M:ClassLibraryVB.IO.Context.Request(System.String,ClassLibraryVB.IO.RequestStyle)
+  name.vb: Request(String, RequestStyle)
+  fullName: ClassLibraryVB.IO.Context.Request(string, ClassLibraryVB.IO.RequestStyle)
+  fullName.vb: ClassLibraryVB.IO.Context.Request(String, ClassLibraryVB.IO.RequestStyle)
+  nameWithType: Context.Request(string, RequestStyle)
+  nameWithType.vb: Context.Request(String, RequestStyle)
+- uid: ClassLibraryVB.IO.Context.Request*
+  name: Request
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Request_
+  commentId: Overload:ClassLibraryVB.IO.Context.Request
+  fullName: ClassLibraryVB.IO.Context.Request
+  nameWithType: Context.Request
+- uid: ClassLibraryVB.IO.Context.RequestArray*
+  name: RequestArray
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_RequestArray_
+  commentId: Overload:ClassLibraryVB.IO.Context.RequestArray
+  fullName: ClassLibraryVB.IO.Context.RequestArray
+  nameWithType: Context.RequestArray
+- uid: ClassLibraryVB.IO.Context.RequestArray``1(System.Converter{System.String,``0},System.Func{``0})
+  name: RequestArray<T>(Converter<string, T>, Func<T>)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_RequestArray__1_System_Converter_System_String___0__System_Func___0__
+  commentId: M:ClassLibraryVB.IO.Context.RequestArray``1(System.Converter{System.String,``0},System.Func{``0})
+  name.vb: RequestArray(Of T)(Converter(Of String, T), Func(Of T))
+  fullName: ClassLibraryVB.IO.Context.RequestArray<T>(System.Converter<string, T>, System.Func<T>)
+  fullName.vb: ClassLibraryVB.IO.Context.RequestArray(Of T)(System.Converter(Of String, T), System.Func(Of T))
+  nameWithType: Context.RequestArray<T>(Converter<string, T>, Func<T>)
+  nameWithType.vb: Context.RequestArray(Of T)(Converter(Of String, T), Func(Of T))
+- uid: ClassLibraryVB.IO.Context.RequestArray``1(System.Func{``0})
+  name: RequestArray<T>(Func<T>)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_RequestArray__1_System_Func___0__
+  commentId: M:ClassLibraryVB.IO.Context.RequestArray``1(System.Func{``0})
+  name.vb: RequestArray(Of T)(Func(Of T))
+  fullName: ClassLibraryVB.IO.Context.RequestArray<T>(System.Func<T>)
+  fullName.vb: ClassLibraryVB.IO.Context.RequestArray(Of T)(System.Func(Of T))
+  nameWithType: Context.RequestArray<T>(Func<T>)
+  nameWithType.vb: Context.RequestArray(Of T)(Func(Of T))
+- uid: ClassLibraryVB.IO.Context.RequestMatrix*
+  name: RequestMatrix
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_RequestMatrix_
+  commentId: Overload:ClassLibraryVB.IO.Context.RequestMatrix
+  fullName: ClassLibraryVB.IO.Context.RequestMatrix
+  nameWithType: Context.RequestMatrix
+- uid: ClassLibraryVB.IO.Context.RequestMatrix``1(System.Converter{System.String,``0},System.Func{``0})
+  name: RequestMatrix<T>(Converter<string, T>, Func<T>)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_RequestMatrix__1_System_Converter_System_String___0__System_Func___0__
+  commentId: M:ClassLibraryVB.IO.Context.RequestMatrix``1(System.Converter{System.String,``0},System.Func{``0})
+  name.vb: RequestMatrix(Of T)(Converter(Of String, T), Func(Of T))
+  fullName: ClassLibraryVB.IO.Context.RequestMatrix<T>(System.Converter<string, T>, System.Func<T>)
+  fullName.vb: ClassLibraryVB.IO.Context.RequestMatrix(Of T)(System.Converter(Of String, T), System.Func(Of T))
+  nameWithType: Context.RequestMatrix<T>(Converter<string, T>, Func<T>)
+  nameWithType.vb: Context.RequestMatrix(Of T)(Converter(Of String, T), Func(Of T))
+- uid: ClassLibraryVB.IO.Context.RequestMatrix``1(System.Func{``0})
+  name: RequestMatrix<T>(Func<T>)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_RequestMatrix__1_System_Func___0__
+  commentId: M:ClassLibraryVB.IO.Context.RequestMatrix``1(System.Func{``0})
+  name.vb: RequestMatrix(Of T)(Func(Of T))
+  fullName: ClassLibraryVB.IO.Context.RequestMatrix<T>(System.Func<T>)
+  fullName.vb: ClassLibraryVB.IO.Context.RequestMatrix(Of T)(System.Func(Of T))
+  nameWithType: Context.RequestMatrix<T>(Func<T>)
+  nameWithType.vb: Context.RequestMatrix(Of T)(Func(Of T))
+- uid: ClassLibraryVB.IO.Context.Request``1(System.Converter{System.String,``0},System.String,ClassLibraryVB.IO.RequestStyle)
+  name: Request<T>(Converter<string, T>, string, RequestStyle)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Request__1_System_Converter_System_String___0__System_String_ClassLibraryVB_IO_RequestStyle_
+  commentId: M:ClassLibraryVB.IO.Context.Request``1(System.Converter{System.String,``0},System.String,ClassLibraryVB.IO.RequestStyle)
+  name.vb: Request(Of T)(Converter(Of String, T), String, RequestStyle)
+  fullName: ClassLibraryVB.IO.Context.Request<T>(System.Converter<string, T>, string, ClassLibraryVB.IO.RequestStyle)
+  fullName.vb: ClassLibraryVB.IO.Context.Request(Of T)(System.Converter(Of String, T), String, ClassLibraryVB.IO.RequestStyle)
+  nameWithType: Context.Request<T>(Converter<string, T>, string, RequestStyle)
+  nameWithType.vb: Context.Request(Of T)(Converter(Of String, T), String, RequestStyle)
+- uid: ClassLibraryVB.IO.Context.Request``1(System.String,ClassLibraryVB.IO.RequestStyle)
+  name: Request<T>(string, RequestStyle)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Request__1_System_String_ClassLibraryVB_IO_RequestStyle_
+  commentId: M:ClassLibraryVB.IO.Context.Request``1(System.String,ClassLibraryVB.IO.RequestStyle)
+  name.vb: Request(Of T)(String, RequestStyle)
+  fullName: ClassLibraryVB.IO.Context.Request<T>(string, ClassLibraryVB.IO.RequestStyle)
+  fullName.vb: ClassLibraryVB.IO.Context.Request(Of T)(String, ClassLibraryVB.IO.RequestStyle)
+  nameWithType: Context.Request<T>(string, RequestStyle)
+  nameWithType.vb: Context.Request(Of T)(String, RequestStyle)
+- uid: ClassLibraryVB.IO.Context.TalkToUser
+  name: TalkToUser
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_TalkToUser
+  commentId: P:ClassLibraryVB.IO.Context.TalkToUser
+  fullName: ClassLibraryVB.IO.Context.TalkToUser
+  nameWithType: Context.TalkToUser
+- uid: ClassLibraryVB.IO.Context.TalkToUser*
+  name: TalkToUser
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_TalkToUser_
+  commentId: Overload:ClassLibraryVB.IO.Context.TalkToUser
+  fullName: ClassLibraryVB.IO.Context.TalkToUser
+  nameWithType: Context.TalkToUser
+- uid: ClassLibraryVB.IO.Context.Write(System.Object)
+  name: Write(object)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Write_System_Object_
+  commentId: M:ClassLibraryVB.IO.Context.Write(System.Object)
+  name.vb: Write(Object)
+  fullName: ClassLibraryVB.IO.Context.Write(object)
+  fullName.vb: ClassLibraryVB.IO.Context.Write(Object)
+  nameWithType: Context.Write(object)
+  nameWithType.vb: Context.Write(Object)
+- uid: ClassLibraryVB.IO.Context.Write*
+  name: Write
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Write_
+  commentId: Overload:ClassLibraryVB.IO.Context.Write
+  fullName: ClassLibraryVB.IO.Context.Write
+  nameWithType: Context.Write
+- uid: ClassLibraryVB.IO.Context.WriteLine(System.Object)
+  name: WriteLine(object)
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_WriteLine_System_Object_
+  commentId: M:ClassLibraryVB.IO.Context.WriteLine(System.Object)
+  name.vb: WriteLine(Object)
+  fullName: ClassLibraryVB.IO.Context.WriteLine(object)
+  fullName.vb: ClassLibraryVB.IO.Context.WriteLine(Object)
+  nameWithType: Context.WriteLine(object)
+  nameWithType.vb: Context.WriteLine(Object)
+- uid: ClassLibraryVB.IO.Context.WriteLine*
+  name: WriteLine
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_WriteLine_
+  commentId: Overload:ClassLibraryVB.IO.Context.WriteLine
+  fullName: ClassLibraryVB.IO.Context.WriteLine
+  nameWithType: Context.WriteLine
+- uid: ClassLibraryVB.IO.Context.Writer
+  name: Writer
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Writer
+  commentId: P:ClassLibraryVB.IO.Context.Writer
+  fullName: ClassLibraryVB.IO.Context.Writer
+  nameWithType: Context.Writer
+- uid: ClassLibraryVB.IO.Context.Writer*
+  name: Writer
+  href: api/ClassLibraryVB.IO.Context.html#ClassLibraryVB_IO_Context_Writer_
+  commentId: Overload:ClassLibraryVB.IO.Context.Writer
+  fullName: ClassLibraryVB.IO.Context.Writer
+  nameWithType: Context.Writer
+- uid: ClassLibraryVB.IO.RequestStyle
+  name: RequestStyle
+  href: api/ClassLibraryVB.IO.RequestStyle.html
+  commentId: T:ClassLibraryVB.IO.RequestStyle
+  fullName: ClassLibraryVB.IO.RequestStyle
+  nameWithType: RequestStyle
+- uid: ClassLibraryVB.IO.RequestStyle.Bare
+  name: Bare
+  href: api/ClassLibraryVB.IO.RequestStyle.html#ClassLibraryVB_IO_RequestStyle_Bare
+  commentId: F:ClassLibraryVB.IO.RequestStyle.Bare
+  fullName: ClassLibraryVB.IO.RequestStyle.Bare
+  nameWithType: RequestStyle.Bare
+- uid: ClassLibraryVB.IO.RequestStyle.Default
+  name: Default
+  href: api/ClassLibraryVB.IO.RequestStyle.html#ClassLibraryVB_IO_RequestStyle_Default
+  commentId: F:ClassLibraryVB.IO.RequestStyle.Default
+  fullName: ClassLibraryVB.IO.RequestStyle.Default
+  nameWithType: RequestStyle.Default
+- uid: ClassLibraryVB.IO.RequestStyle.Inline
+  name: Inline
+  href: api/ClassLibraryVB.IO.RequestStyle.html#ClassLibraryVB_IO_RequestStyle_Inline
+  commentId: F:ClassLibraryVB.IO.RequestStyle.Inline
+  fullName: ClassLibraryVB.IO.RequestStyle.Inline
+  nameWithType: RequestStyle.Inline
+- uid: ClassLibraryVB.IO.ДавайПоНовійException
+  name: ДавайПоНовійException
+  href: api/ClassLibraryVB.IO.%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D0%9F%D0%BE%D0%9D%D0%BE%D0%B2%D1%96%D0%B9Exception.html
+  commentId: T:ClassLibraryVB.IO.ДавайПоНовійException
+  fullName: ClassLibraryVB.IO.ДавайПоНовійException
+  nameWithType: ДавайПоНовійException
+- uid: ClassLibraryVB.IO.ДавайПоНовійException.#ctor
+  name: ДавайПоНовійException()
+  href: api/ClassLibraryVB.IO.%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D0%9F%D0%BE%D0%9D%D0%BE%D0%B2%D1%96%D0%B9Exception.html#ClassLibraryVB_IO_____________Exception__ctor
+  commentId: M:ClassLibraryVB.IO.ДавайПоНовійException.#ctor
+  name.vb: New()
+  fullName: ClassLibraryVB.IO.ДавайПоНовійException.ДавайПоНовійException()
+  fullName.vb: ClassLibraryVB.IO.ДавайПоНовійException.New()
+  nameWithType: ДавайПоНовійException.ДавайПоНовійException()
+  nameWithType.vb: ДавайПоНовійException.New()
+- uid: ClassLibraryVB.IO.ДавайПоНовійException.#ctor*
+  name: ДавайПоНовійException
+  href: api/ClassLibraryVB.IO.%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D0%9F%D0%BE%D0%9D%D0%BE%D0%B2%D1%96%D0%B9Exception.html#ClassLibraryVB_IO_____________Exception__ctor_
+  commentId: Overload:ClassLibraryVB.IO.ДавайПоНовійException.#ctor
+  name.vb: New
+  fullName: ClassLibraryVB.IO.ДавайПоНовійException.ДавайПоНовійException
+  fullName.vb: ClassLibraryVB.IO.ДавайПоНовійException.New
+  nameWithType: ДавайПоНовійException.ДавайПоНовійException
+  nameWithType.vb: ДавайПоНовійException.New
+- uid: ClassLibraryVB.IO.ДоПобаченняException
+  name: ДоПобаченняException
+  href: api/ClassLibraryVB.IO.%D0%94%D0%BE%D0%9F%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8FException.html
+  commentId: T:ClassLibraryVB.IO.ДоПобаченняException
+  fullName: ClassLibraryVB.IO.ДоПобаченняException
+  nameWithType: ДоПобаченняException
+- uid: ClassLibraryVB.IO.ДоПобаченняException.#ctor
+  name: ДоПобаченняException()
+  href: api/ClassLibraryVB.IO.%D0%94%D0%BE%D0%9F%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8FException.html#ClassLibraryVB_IO____________Exception__ctor
+  commentId: M:ClassLibraryVB.IO.ДоПобаченняException.#ctor
+  name.vb: New()
+  fullName: ClassLibraryVB.IO.ДоПобаченняException.ДоПобаченняException()
+  fullName.vb: ClassLibraryVB.IO.ДоПобаченняException.New()
+  nameWithType: ДоПобаченняException.ДоПобаченняException()
+  nameWithType.vb: ДоПобаченняException.New()
+- uid: ClassLibraryVB.IO.ДоПобаченняException.#ctor*
+  name: ДоПобаченняException
+  href: api/ClassLibraryVB.IO.%D0%94%D0%BE%D0%9F%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8FException.html#ClassLibraryVB_IO____________Exception__ctor_
+  commentId: Overload:ClassLibraryVB.IO.ДоПобаченняException.#ctor
+  name.vb: New
+  fullName: ClassLibraryVB.IO.ДоПобаченняException.ДоПобаченняException
+  fullName.vb: ClassLibraryVB.IO.ДоПобаченняException.New
+  nameWithType: ДоПобаченняException.ДоПобаченняException
+  nameWithType.vb: ДоПобаченняException.New
+- uid: Cli
+  name: Cli
+  href: api/Cli.html
+  commentId: N:Cli
+  fullName: Cli
+  nameWithType: Cli
+- uid: Cli.Args
+  name: Args
+  href: api/Cli.Args.html
+  commentId: T:Cli.Args
+  fullName: Cli.Args
+  nameWithType: Args
+- uid: Cli.Args.Handler
+  name: Args.Handler
+  href: api/Cli.Args.Handler.html
+  commentId: T:Cli.Args.Handler
+  fullName: Cli.Args.Handler
+  nameWithType: Args.Handler
+- uid: Cli.Args.Handler.#ctor(System.String[])
+  name: Handler(string[])
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler__ctor_System_String___
+  commentId: M:Cli.Args.Handler.#ctor(System.String[])
+  name.vb: New(String())
+  fullName: Cli.Args.Handler.Handler(string[])
+  fullName.vb: Cli.Args.Handler.New(String())
+  nameWithType: Args.Handler.Handler(string[])
+  nameWithType.vb: Args.Handler.New(String())
+- uid: Cli.Args.Handler.#ctor*
+  name: Handler
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler__ctor_
+  commentId: Overload:Cli.Args.Handler.#ctor
+  name.vb: New
+  fullName: Cli.Args.Handler.Handler
+  fullName.vb: Cli.Args.Handler.New
+  nameWithType: Args.Handler.Handler
+  nameWithType.vb: Args.Handler.New
+- uid: Cli.Args.Handler.GlobalTheme
+  name: GlobalTheme
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler_GlobalTheme
+  commentId: P:Cli.Args.Handler.GlobalTheme
+  fullName: Cli.Args.Handler.GlobalTheme
+  nameWithType: Args.Handler.GlobalTheme
+- uid: Cli.Args.Handler.GlobalTheme*
+  name: GlobalTheme
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler_GlobalTheme_
+  commentId: Overload:Cli.Args.Handler.GlobalTheme
+  fullName: Cli.Args.Handler.GlobalTheme
+  nameWithType: Args.Handler.GlobalTheme
+- uid: Cli.Args.Handler.InputFile
+  name: InputFile
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler_InputFile
+  commentId: P:Cli.Args.Handler.InputFile
+  fullName: Cli.Args.Handler.InputFile
+  nameWithType: Args.Handler.InputFile
+- uid: Cli.Args.Handler.InputFile*
+  name: InputFile
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler_InputFile_
+  commentId: Overload:Cli.Args.Handler.InputFile
+  fullName: Cli.Args.Handler.InputFile
+  nameWithType: Args.Handler.InputFile
+- uid: Cli.Args.Handler.TalkToUser
+  name: TalkToUser
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler_TalkToUser
+  commentId: P:Cli.Args.Handler.TalkToUser
+  fullName: Cli.Args.Handler.TalkToUser
+  nameWithType: Args.Handler.TalkToUser
+- uid: Cli.Args.Handler.TalkToUser*
+  name: TalkToUser
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler_TalkToUser_
+  commentId: Overload:Cli.Args.Handler.TalkToUser
+  fullName: Cli.Args.Handler.TalkToUser
+  nameWithType: Args.Handler.TalkToUser
+- uid: Cli.Args.Handler.getContext
+  name: getContext()
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler_getContext
+  commentId: M:Cli.Args.Handler.getContext
+  fullName: Cli.Args.Handler.getContext()
+  nameWithType: Args.Handler.getContext()
+- uid: Cli.Args.Handler.getContext*
+  name: getContext
+  href: api/Cli.Args.Handler.html#Cli_Args_Handler_getContext_
+  commentId: Overload:Cli.Args.Handler.getContext
+  fullName: Cli.Args.Handler.getContext
+  nameWithType: Args.Handler.getContext
+- uid: Cli.Args.usage
+  name: usage
+  href: api/Cli.Args.html#Cli_Args_usage
+  commentId: F:Cli.Args.usage
+  fullName: Cli.Args.usage
+  nameWithType: Args.usage

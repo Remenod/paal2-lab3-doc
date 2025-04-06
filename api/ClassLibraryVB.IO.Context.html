@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Context | Lab3 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Context | Lab3 ">
+      
+      <meta name="description" content="Represents an execution context that implements  for reading input, writing output, and handling user interaction with color themes.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Lab3">
+            Lab3
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ClassLibraryVB.IO.Context">
+
+
+
+  <h1 id="ClassLibraryVB_IO_Context" data-uid="ClassLibraryVB.IO.Context" class="text-break">
+Class Context  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ClassLibraryVB.html">ClassLibraryVB</a>.<a class="xref" href="ClassLibraryVB.IO.html">IO</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ClassLibraryVB.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents an execution context that implements <a class="xref" href="ClassLibraryFS.ConsoleUI.IContext.html">ConsoleUI.IContext</a> for reading input,
+writing output, and handling user interaction with color themes.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Context : ConsoleUI.IContext</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Context</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ClassLibraryFS.ConsoleUI.html">ConsoleUI</a>.<a class="xref" href="ClassLibraryFS.ConsoleUI.IContext.html">IContext</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html#ClassLibraryCS_FunctionalEnumerableOperations_Enumerable_Let__2___0_System_Func___0___1__">Enumerable.Let&lt;TSource, TResult&gt;(TSource, Func&lt;TSource, TResult&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ClassLibraryVB_IO_Context__ctor_" data-uid="ClassLibraryVB.IO.Context.#ctor*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context__ctor_System_IO_TextReader_System_IO_TextWriter_System_Boolean_ClassLibraryFS_Coloring_Theme_" data-uid="ClassLibraryVB.IO.Context.#ctor(System.IO.TextReader,System.IO.TextWriter,System.Boolean,ClassLibraryFS.Coloring.Theme)">
+  Context(TextReader, TextWriter, bool, Theme)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ClassLibraryVB.IO.Context.html">Context</a> class with the specified input/output streams,
+user interaction flag, and color theme. Automatically generates and prints the help menu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Context(TextReader reader, TextWriter writer, bool talkToUser, Coloring.Theme globalTheme)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textreader">TextReader</a></dt>
+    <dd><p>The input stream.</p>
+</dd>
+    <dt><code>writer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter">TextWriter</a></dt>
+    <dd><p>The output stream.</p>
+</dd>
+    <dt><code>talkToUser</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Indicates whether to print messages to the user.</p>
+</dd>
+    <dt><code>globalTheme</code> <a class="xref" href="ClassLibraryFS.Coloring.html">Coloring</a>.<a class="xref" href="ClassLibraryFS.Coloring.Theme.html">Theme</a></dt>
+    <dd><p>The theme used for color formatting.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ClassLibraryVB_IO_Context_Error_" data-uid="ClassLibraryVB.IO.Context.Error*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Error_System_String_" data-uid="ClassLibraryVB.IO.Context.Error(System.String)">
+  Error(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prints an error message to the user, appending a New line at the end.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Error(string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The error message to be printed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_Parse_" data-uid="ClassLibraryVB.IO.Context.Parse*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Parse__1_System_String_" data-uid="ClassLibraryVB.IO.Context.Parse``1(System.String)">
+  Parse&lt;T&gt;(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Parse&lt;T&gt;(string input) where T : IParsable&lt;T&gt;, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_Print_" data-uid="ClassLibraryVB.IO.Context.Print*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Print_System_Object_System_Nullable_System_ConsoleColor__" data-uid="ClassLibraryVB.IO.Context.Print(System.Object,System.Nullable{System.ConsoleColor})">
+  Print(object, ConsoleColor?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prints a message to the console without a newline, using the specified color.
+If the TalkToUser variable is set to True,
+the message will be written to the standard error stream (Console.Error).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Print(object message, ConsoleColor? color = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The message to print.</p>
+</dd>
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>?</dt>
+    <dd><p>(Optional) The text color. Default is white.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_PrintLine_" data-uid="ClassLibraryVB.IO.Context.PrintLine*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_PrintLine_System_Object_System_Nullable_System_ConsoleColor__" data-uid="ClassLibraryVB.IO.Context.PrintLine(System.Object,System.Nullable{System.ConsoleColor})">
+  PrintLine(object, ConsoleColor?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prints a message to the console with the specified color.
+If the TalkToUser variable is set to True,
+the message will be written to the standard error stream (Console.Error).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PrintLine(object message, ConsoleColor? color = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The message to print.</p>
+</dd>
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>?</dt>
+    <dd><p>(Optional) The text color. Default is white.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_ReadArrayInline_" data-uid="ClassLibraryVB.IO.Context.ReadArrayInline*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_ReadArrayInline__1" data-uid="ClassLibraryVB.IO.Context.ReadArrayInline``1">
+  ReadArrayInline&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests elements from the user And collects them into an array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynArray&lt;T&gt; ReadArrayInline&lt;T&gt;() where T : IParsable&lt;T&gt;, new()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryCS.Collections.DynArray-1.html">DynArray</a>&lt;T&gt;</dt>
+    <dd><p>An array of elements of type T entered by the user.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the array, constrained to be IParsable.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_ReadArrayInline_" data-uid="ClassLibraryVB.IO.Context.ReadArrayInline*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_ReadArrayInline__1_System_Converter_System_String___0__" data-uid="ClassLibraryVB.IO.Context.ReadArrayInline``1(System.Converter{System.String,``0})">
+  ReadArrayInline&lt;T&gt;(Converter&lt;string, T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests elements from the user And collects them into an array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynArray&lt;T&gt; ReadArrayInline&lt;T&gt;(Converter&lt;string, T&gt; converter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.converter-2">Converter</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, T&gt;</dt>
+    <dd><p>A function that converts each input string into the requested type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryCS.Collections.DynArray-1.html">DynArray</a>&lt;T&gt;</dt>
+    <dd><p>An array of elements of type T entered by the user.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the array.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_ReadArrayRandom_" data-uid="ClassLibraryVB.IO.Context.ReadArrayRandom*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_ReadArrayRandom__1_System_Func___0__" data-uid="ClassLibraryVB.IO.Context.ReadArrayRandom``1(System.Func{``0})">
+  ReadArrayRandom&lt;T&gt;(Func&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests the number of elements from the user And generates an array of random elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynArray&lt;T&gt; ReadArrayRandom&lt;T&gt;(Func&lt;T&gt; getRandomItem)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>getRandomItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;T&gt;</dt>
+    <dd><p>A function that generates random elements of type T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryCS.Collections.DynArray-1.html">DynArray</a>&lt;T&gt;</dt>
+    <dd><p>An array of randomly generated elements of type T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the array.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_Request_" data-uid="ClassLibraryVB.IO.Context.Request*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Request_System_String_ClassLibraryVB_IO_RequestStyle_" data-uid="ClassLibraryVB.IO.Context.Request(System.String,ClassLibraryVB.IO.RequestStyle)">
+  Request(string, RequestStyle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests a string input from the user And returns it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Request(string message = null, RequestStyle style = RequestStyle.Default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A message that guides the user on what to input.</p>
+</dd>
+    <dt><code>style</code> <a class="xref" href="ClassLibraryVB.IO.RequestStyle.html">RequestStyle</a></dt>
+    <dd><p>The style of the request message.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The user input as a string.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryVB.IO.%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D0%9F%D0%BE%D0%9D%D0%BE%D0%B2%D1%96%D0%B9Exception.html">ДавайПоНовійException</a></dt>
+    <dd><p>Thrown when the user chooses to return to the menu.</p>
+</dd>
+    <dt><a class="xref" href="ClassLibraryVB.IO.%D0%94%D0%BE%D0%9F%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8FException.html">ДоПобаченняException</a></dt>
+    <dd><p>Thrown when the user chooses to exit the program.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ClassLibraryVB_IO_Context_RequestArray_" data-uid="ClassLibraryVB.IO.Context.RequestArray*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_RequestArray__1_System_Converter_System_String___0__System_Func___0__" data-uid="ClassLibraryVB.IO.Context.RequestArray``1(System.Converter{System.String,``0},System.Func{``0})">
+  RequestArray&lt;T&gt;(Converter&lt;string, T&gt;, Func&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests the user to specify the input method for entering an array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynArray&lt;T&gt; RequestArray&lt;T&gt;(Converter&lt;string, T&gt; converter, Func&lt;T&gt; getRandomItem)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.converter-2">Converter</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, T&gt;</dt>
+    <dd><p>A function that converts each input string into the requested type.</p>
+</dd>
+    <dt><code>getRandomItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;T&gt;</dt>
+    <dd><p>A function that generates random elements of type T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryCS.Collections.DynArray-1.html">DynArray</a>&lt;T&gt;</dt>
+    <dd><p>An array of elements of type T entered by the user.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the array.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_RequestArray_" data-uid="ClassLibraryVB.IO.Context.RequestArray*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_RequestArray__1_System_Func___0__" data-uid="ClassLibraryVB.IO.Context.RequestArray``1(System.Func{``0})">
+  RequestArray&lt;T&gt;(Func&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests the user to specify the input method for entering an array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynArray&lt;T&gt; RequestArray&lt;T&gt;(Func&lt;T&gt; getRandomItem) where T : IParsable&lt;T&gt;, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>getRandomItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;T&gt;</dt>
+    <dd><p>A function that generates random elements of type T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryCS.Collections.DynArray-1.html">DynArray</a>&lt;T&gt;</dt>
+    <dd><p>An array of elements of type T entered by the user.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the array, constrained to be IParsable.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_RequestMatrix_" data-uid="ClassLibraryVB.IO.Context.RequestMatrix*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_RequestMatrix__1_System_Converter_System_String___0__System_Func___0__" data-uid="ClassLibraryVB.IO.Context.RequestMatrix``1(System.Converter{System.String,``0},System.Func{``0})">
+  RequestMatrix&lt;T&gt;(Converter&lt;string, T&gt;, Func&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests a matrix of elements, using a specified converter And random item generator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynArray&lt;DynArray&lt;T&gt;&gt; RequestMatrix&lt;T&gt;(Converter&lt;string, T&gt; converter, Func&lt;T&gt; getRandomItem)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.converter-2">Converter</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, T&gt;</dt>
+    <dd><p>A function that converts each input string into the requested type.</p>
+</dd>
+    <dt><code>getRandomItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;T&gt;</dt>
+    <dd><p>A function that generates random elements of type T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryCS/Collections/DynArray.cs">DynArray</a>&lt;<a class="xref" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryCS/Collections/DynArray.cs">DynArray</a>&lt;T&gt;&gt;</dt>
+    <dd><p>A dynamically sized matrix (array of arrays) with parsed Or randomly generated elements.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the matrix, constrained to be parsable.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_RequestMatrix_" data-uid="ClassLibraryVB.IO.Context.RequestMatrix*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_RequestMatrix__1_System_Func___0__" data-uid="ClassLibraryVB.IO.Context.RequestMatrix``1(System.Func{``0})">
+  RequestMatrix&lt;T&gt;(Func&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests a two-dimensional matrix of elements of type T, where T implements IParsable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynArray&lt;DynArray&lt;T&gt;&gt; RequestMatrix&lt;T&gt;(Func&lt;T&gt; getRandomItem) where T : IParsable&lt;T&gt;, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>getRandomItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;T&gt;</dt>
+    <dd><p>A function that generates random items of type T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryCS/Collections/DynArray.cs">DynArray</a>&lt;<a class="xref" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryCS/Collections/DynArray.cs">DynArray</a>&lt;T&gt;&gt;</dt>
+    <dd><p>A dynamically sized matrix (array of arrays) with elements of type T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the matrix, constrained to be IParsable.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_Request_" data-uid="ClassLibraryVB.IO.Context.Request*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Request__1_System_Converter_System_String___0__System_String_ClassLibraryVB_IO_RequestStyle_" data-uid="ClassLibraryVB.IO.Context.Request``1(System.Converter{System.String,``0},System.String,ClassLibraryVB.IO.RequestStyle)">
+  Request&lt;T&gt;(Converter&lt;string, T&gt;, string, RequestStyle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests input from the user, attempting to convert it to a specific type.
+If an exception occurs, an error message Is shown And the request Is retried.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Request&lt;T&gt;(Converter&lt;string, T&gt; converter, string message = null, RequestStyle style = RequestStyle.Default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.converter-2">Converter</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, T&gt;</dt>
+    <dd><p>A function that converts the input string into the requested type.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A message that guides the user on what to input.</p>
+</dd>
+    <dt><code>style</code> <a class="xref" href="ClassLibraryVB.IO.RequestStyle.html">RequestStyle</a></dt>
+    <dd><p>The style of the request message.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The user input converted to the specified type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the requested value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryVB.IO.%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D0%9F%D0%BE%D0%9D%D0%BE%D0%B2%D1%96%D0%B9Exception.html">ДавайПоНовійException</a></dt>
+    <dd><p>Thrown when the user chooses to return to the menu.</p>
+</dd>
+    <dt><a class="xref" href="ClassLibraryVB.IO.%D0%94%D0%BE%D0%9F%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8FException.html">ДоПобаченняException</a></dt>
+    <dd><p>Thrown when the user chooses to exit the program.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ClassLibraryVB_IO_Context_Request_" data-uid="ClassLibraryVB.IO.Context.Request*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Request__1_System_String_ClassLibraryVB_IO_RequestStyle_" data-uid="ClassLibraryVB.IO.Context.Request``1(System.String,ClassLibraryVB.IO.RequestStyle)">
+  Request&lt;T&gt;(string, RequestStyle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requests input from the user, attempting to convert it to a specified type that implements IParsable.
+If an exception occurs, an error message Is shown And the request Is retried.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Request&lt;T&gt;(string message = null, RequestStyle style = RequestStyle.Default) where T : IParsable&lt;T&gt;, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A message that guides the user on what to input.</p>
+</dd>
+    <dt><code>style</code> <a class="xref" href="ClassLibraryVB.IO.RequestStyle.html">RequestStyle</a></dt>
+    <dd><p>The style of the request message.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The user input converted to the specified type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the requested value, constrained to be IParsable.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryVB.IO.%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D0%9F%D0%BE%D0%9D%D0%BE%D0%B2%D1%96%D0%B9Exception.html">ДавайПоНовійException</a></dt>
+    <dd><p>Thrown when the user chooses to return to the menu.</p>
+</dd>
+    <dt><a class="xref" href="ClassLibraryVB.IO.%D0%94%D0%BE%D0%9F%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8FException.html">ДоПобаченняException</a></dt>
+    <dd><p>Thrown when the user chooses to exit the program.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ClassLibraryVB_IO_Context_Write_" data-uid="ClassLibraryVB.IO.Context.Write*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Write_System_Object_" data-uid="ClassLibraryVB.IO.Context.Write(System.Object)">
+  Write(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes a message to the program output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(object message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The message to be written.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_WriteLine_" data-uid="ClassLibraryVB.IO.Context.WriteLine*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_WriteLine_System_Object_" data-uid="ClassLibraryVB.IO.Context.WriteLine(System.Object)">
+  WriteLine(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes a message to the program output, appending a New line at the end.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteLine(object message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The message to be written.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="eii">Explicit Interface Implementations
+</h2>
+
+
+  <a id="ClassLibraryVB_IO_Context_GlobalTheme_" data-uid="ClassLibraryVB.IO.Context.GlobalTheme*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_GlobalTheme" data-uid="ClassLibraryVB.IO.Context.GlobalTheme">
+  GlobalTheme
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the global color theme used for styled output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Coloring.Theme GlobalTheme { get; }</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryFS.Coloring.html">Coloring</a>.<a class="xref" href="ClassLibraryFS.Coloring.Theme.html">Theme</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_HelpMenu_" data-uid="ClassLibraryVB.IO.Context.HelpMenu*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_HelpMenu" data-uid="ClassLibraryVB.IO.Context.HelpMenu">
+  HelpMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the formatted help menu as a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string HelpMenu { get; }</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_Reader_" data-uid="ClassLibraryVB.IO.Context.Reader*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Reader" data-uid="ClassLibraryVB.IO.Context.Reader">
+  Reader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the input data stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TextReader Reader { get; }</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textreader">TextReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_TalkToUser_" data-uid="ClassLibraryVB.IO.Context.TalkToUser*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_TalkToUser" data-uid="ClassLibraryVB.IO.Context.TalkToUser">
+  TalkToUser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the context should display messages to the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TalkToUser { get; }</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryVB_IO_Context_Writer_" data-uid="ClassLibraryVB.IO.Context.Writer*"></a>
+
+  <h3 id="ClassLibraryVB_IO_Context_Writer" data-uid="ClassLibraryVB.IO.Context.Writer">
+  Writer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the output data stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TextWriter Writer { get; }</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter">TextWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/dikotl/paal2-lab3/blob/e66a5a073a4f192dca5b79520524dd6a9baf9405/ClassLibraryVB/IO/RequestHandler.vb" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

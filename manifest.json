@@ -1,0 +1,438 @@
+{
+  "source_base_path": "C:/Users/Remenod/Desktop/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Args.CliArgs.CliHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Args.CliArgs.CliHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Args.CliArgs.CliHandler",
+      "Summary": "<p sourcefile=\"api/Args.CliArgs.CliHandler.yml\" sourcestartlinenumber=\"1\">Handles parsing of CLI arguments and provides the configured execution context,\nincluding the selected theme, input source, and verbosity setting.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Args.CliArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Args.CliArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Args.CliArgs",
+      "Summary": "<p sourcefile=\"api/Args.CliArgs.yml\" sourcestartlinenumber=\"1\">Provides parsing and handling of command-line arguments for the lab3 application.\nSupports reading an input file, enabling/disabling console output, and setting a visual theme.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Args.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Args.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Args",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryCS.Collections.DynArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryCS.Collections.DynArray-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryCS.Collections.DynArray<T>",
+      "Summary": "<p sourcefile=\"api/ClassLibraryCS.Collections.DynArray-1.yml\" sourcestartlinenumber=\"1\">A dynamic array that automatically resizes itself as elements are added or removed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryCS.Collections.Generator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryCS.Collections.Generator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryCS.Collections.Generator",
+      "Summary": "<p sourcefile=\"api/ClassLibraryCS.Collections.Generator.yml\" sourcestartlinenumber=\"1\">A utility class that generates random data, including arrays and dynamic arrays.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryCS.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryCS.Collections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryCS.Collections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryCS.FunctionalEnumerableOperations.Enumerable",
+      "Summary": "<p sourcefile=\"api/ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.yml\" sourcestartlinenumber=\"1\">Provides extension methods for working with sequences, including transformations, filtering, and taking elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryCS.FunctionalEnumerableOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryCS.FunctionalEnumerableOperations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryCS.FunctionalEnumerableOperations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.Coloring.StringExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.Coloring.StringExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS.Coloring.StringExtension",
+      "Summary": "<p sourcefile=\"api/ClassLibraryFS.Coloring.StringExtension.yml\" sourcestartlinenumber=\"1\">Extension method for strings to wrap them in ANSI escape codes for a given ConsoleColor.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.Coloring.Theme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.Coloring.Theme.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS.Coloring.Theme",
+      "Summary": "<p sourcefile=\"api/ClassLibraryFS.Coloring.Theme.yml\" sourcestartlinenumber=\"1\">Represents a color theme for console output.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.Coloring.WrapEscColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.Coloring.WrapEscColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS.Coloring.WrapEscColor",
+      "Summary": "<p sourcefile=\"api/ClassLibraryFS.Coloring.WrapEscColor.yml\" sourcestartlinenumber=\"1\">Extension method for strings to wrap them in ANSI escape codes for a given ConsoleColor.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.Coloring.WrapEscColorExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.Coloring.WrapEscColorExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS.Coloring.WrapEscColorExtension",
+      "Summary": "<p sourcefile=\"api/ClassLibraryFS.Coloring.WrapEscColorExtension.yml\" sourcestartlinenumber=\"1\">Extension method for strings to wrap them in ANSI escape codes for a given ConsoleColor.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.Coloring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.Coloring.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS.Coloring",
+      "Summary": "<p sourcefile=\"api/ClassLibraryFS.Coloring.yml\" sourcestartlinenumber=\"1\">A module that provides support for theming and ANSI color formatting in the console.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.ConsoleUI.IContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.ConsoleUI.IContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS.ConsoleUI.IContext",
+      "Summary": "<p sourcefile=\"api/ClassLibraryFS.ConsoleUI.IContext.yml\" sourcestartlinenumber=\"1\">Defines the interface for an execution context that interacts with the user.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.ConsoleUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.ConsoleUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS.ConsoleUI",
+      "Summary": "<p sourcefile=\"api/ClassLibraryFS.ConsoleUI.yml\" sourcestartlinenumber=\"1\">Provides utilities for console-based user interaction in CLI applications,\nincluding context abstraction, task parsing, description extraction, and\nstyled table rendering with themes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.Text.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS.Text",
+      "Summary": "<p sourcefile=\"api/ClassLibraryFS.Text.yml\" sourcestartlinenumber=\"1\">Provides helper functions for text formatting and numeric string processing,\nincluding string centering and digit counting.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryFS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryFS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryFS",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryVB.IO.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryVB.IO.Context.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryVB.IO.Context",
+      "Summary": "<p sourcefile=\"api/ClassLibraryVB.IO.Context.yml\" sourcestartlinenumber=\"1\">Represents an execution context that implements <xref href=\"ClassLibraryFS.ConsoleUI.IContext\" data-throw-if-not-resolved=\"false\"></xref> for reading input,\nwriting output, and handling user interaction with color themes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryVB.IO.RequestStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryVB.IO.RequestStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryVB.IO.RequestStyle",
+      "Summary": "<p sourcefile=\"api/ClassLibraryVB.IO.RequestStyle.yml\" sourcestartlinenumber=\"1\">Specifies a style for the request message in the Context.Request* methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryVB.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryVB.IO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryVB.IO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryVB.IO.ДавайПоНовійException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryVB.IO.ДавайПоНовійException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryVB.IO.ДавайПоНовійException",
+      "Summary": "<p sourcefile=\"api/ClassLibraryVB.IO.ДавайПоНовійException.yml\" sourcestartlinenumber=\"1\">Exception thrown to indicate the program should exit to the menu.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryVB.IO.ДоПобаченняException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryVB.IO.ДоПобаченняException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryVB.IO.ДоПобаченняException",
+      "Summary": "<p sourcefile=\"api/ClassLibraryVB.IO.ДоПобаченняException.yml\" sourcestartlinenumber=\"1\">Exception thrown to indicate the program should exit completely.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cli.Args.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cli.Args.Handler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cli.Args.Handler",
+      "Summary": "<p sourcefile=\"api/Cli.Args.Handler.yml\" sourcestartlinenumber=\"1\">Handles parsing of CLI arguments and provides the configured execution context,\nincluding the selected theme, input source, and verbosity setting.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cli.Args.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cli.Args.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cli.Args",
+      "Summary": "<p sourcefile=\"api/Cli.Args.yml\" sourcestartlinenumber=\"1\">Provides parsing and handling of command-line arguments for the lab3 application.\nSupports reading an input file, enabling/disabling console output, and setting a visual theme.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cli.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cli",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
