@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for Even Elements and Insert Ones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #212529;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            margin: 15px auto;
+            border-collapse: collapse;
+        }
+        td {
+            border: 2px solid #ddd;
+            padding: 10px 20px;
+            font-size: 18px;
+            min-width: 20px;
+            transition: background 0.3s, box-shadow 0.3s;
+        }
+        input, button {
+            padding: 8px;
+            margin: 5px;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .checking {
+            background-color: #f3c623;
+        }
+        .even {
+            background-color: #28a745;
+            color: white;
+            box-shadow: 0 0 15px 5px rgba(40, 167, 69, 0.7);
+        }
+        .zero {
+            background-color: #007bff;
+            color: white;
+            animation: pop 0.3s ease;
+        }
+        @keyframes pop {
+            0% { transform: scale(0.5); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<div style="text-align: center; margin-top: 30px;">
+    <a href="introduction.html" style="
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #003D74;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+    ">🏠 Back to Home</a>
+</div>
+
+<div class="container">
+    <h1>Search for Even Elements and Insert Ones</h1>
+
+    <label for="numRows"><b>Number of array elements:</b></label>
+    <input type="number" id="numRows" min="1" max="20" value="5">
+    <button id="initializeButton">Initialize Array</button>
+
+    <h3>Or enter the array manually (comma separated):</h3>
+    <input type="text" id="manualArrayInput" placeholder="Example: 1, -2, 5, 8">
+    <button id="manualInputButton">Submit Manual Input</button>
+
+    <h3>Original Array:</h3>
+    <table><tr id="arrField"></tr></table>
+
+    <button id="modifyButton" style="display:none;">Check for Even Numbers</button>
+
+    <h3>Modified Array:</h3>
+    <table><tr id="modifiedArrField"></tr></table>
+</div>
+
+<script>
+    let array = [];
+    let modifiedArray = [];
+
+    function renderTableRow(rowId, arr, classes = []) {
+        const row = document.getElementById(rowId);
+        row.innerHTML = "";
+        arr.forEach((value, i) => {
+            const td = document.createElement("td");
+            td.textContent = value;
+            if (classes[i]) td.classList.add(classes[i]);
+            row.appendChild(td);
+        });
+    }
+
+    document.getElementById("initializeButton").addEventListener("click", () => {
+        const num = parseInt(document.getElementById("numRows").value);
+        array = Array.from({ length: num }, () => Math.floor(Math.random() * 100) - 50);
+        modifiedArray = [...array];
+        renderTableRow("arrField", array, array.map(val => val % 2 === 0)); //?"even" : ""));
+        document.getElementById("modifyButton").style.display = "inline-block";
+
+        document.getElementById("modifiedArrField").innerHTML = "";
+    });
+
+    document.getElementById("manualInputButton").addEventListener("click", () => {
+        const input = document.getElementById("manualArrayInput").value;
+        array = input.split(",").map(v => parseInt(v.trim())).filter(v => !isNaN(v));
+        modifiedArray = [...array];
+        renderTableRow("arrField", array, array.map(val => val % 2 === 0));// ?"even" : ""));
+        document.getElementById("modifyButton").style.display = "inline-block";
+
+        document.getElementById("modifiedArrField").innerHTML = "";
+    });
+
+    document.getElementById("modifyButton").addEventListener("click", async () => {
+        let permanentClasses = Array(array.length).fill("");
+        modifiedArray = [];
+
+        for (let i = 0; i < array.length; i++) {
+            const val = array[i];
+
+            permanentClasses[i] = "checking";
+            renderTableRow("arrField", array, permanentClasses);
+            await new Promise(res => setTimeout(res, 400));
+
+            if (val % 2 === 0) {
+                permanentClasses[i] = "even";
+                renderTableRow("arrField", array, permanentClasses);
+                await new Promise(res => setTimeout(res, 400));
+
+                modifiedArray.push(1);
+                modifiedArray.push(val);
+            } else {
+                modifiedArray.push(val);
+                permanentClasses[i] = "";
+                renderTableRow("arrField", array, permanentClasses);
+                await new Promise(res => setTimeout(res, 200));
+            }
+        }
+
+        const modRow = document.getElementById("modifiedArrField");
+        modRow.innerHTML = "";
+        for (let i = 0; i < modifiedArray.length; i++) {
+            const td = document.createElement("td");
+            td.textContent = modifiedArray[i];
+            if (modifiedArray[i] % 2 === 0 && modifiedArray[i] !== 1) td.classList.add("even");
+            modRow.appendChild(td);
+            await new Promise(res => setTimeout(res, 500));
+        }
+    });
+</script>
+
+</body>
+</html>
+        

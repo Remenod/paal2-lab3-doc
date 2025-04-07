@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Entry in Modified Array</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #212529;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        .button-container {
+            margin-top: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        input[type="number"], input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        td.checking {
+            background-color: yellow !important;
+        }
+        td.min {
+            background-color: red !important;
+            color: white;
+        }
+        tr.newRow td {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        tr.newRow td {
+            animation-delay: 0.3s;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div style="text-align: center; margin-top: 30px;">
+    <a href="introduction.html" style="
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #003D74;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+    ">🏠 Back to Home</a>
+</div>
+
+<div class="container">
+    <h1>Operations with Jagged Array</h1>
+
+    <div class="radio-group">
+        <label><b>Fill Method:</b></label><br>
+        <input type="radio" id="randomFill" name="fillMethod" value="random" checked>
+        <label for="randomFill">Random Numbers</label>
+        <input type="radio" id="manualFill" name="fillMethod" value="manual">
+        <label for="manualFill">User Input</label>
+    </div>
+
+    <label for="numRows"><b>Number of Rows:</b></label>
+    <input type="number" id="numRows" min="1" max="10" value="3">
+
+    <div class="button-container">
+        <button id="initializeButton">Initialize Array</button>
+    </div>
+
+    <div id="matrixInput"></div>
+
+    <div class="button-container">
+        <button id="startButton" style="display:none;">Add Row After Minimum</button>
+    </div>
+
+    <h3>Array:</h3>
+    <table id="arrField"></table>
+
+    <h3>Modified Array:</h3>
+    <table id="modifiedArrField"></table>
+</div>
+
+<script>
+    let arr = [];
+
+    document.getElementById("initializeButton").addEventListener("click", function () {
+        const numRows = parseInt(document.getElementById("numRows").value);
+        const fillMethod = document.querySelector('input[name="fillMethod"]:checked').value;
+
+        if (isNaN(numRows) || numRows <= 0) {
+            alert("Please enter a valid number of rows.");
+            return;
+        }
+
+        arr = [];
+        document.getElementById("matrixInput").innerHTML = "";
+        document.getElementById("arrField").innerHTML = "";
+        document.getElementById("modifiedArrField").innerHTML = "";
+
+        if (fillMethod === "random") {
+            for (let i = 0; i < numRows; i++) {
+                let rowLength = Math.floor(Math.random() * 5) + 2;
+                let row = Array.from({ length: rowLength }, () => Math.floor(Math.random() * 198) - 99);
+                arr.push(row);
+            }
+            document.getElementById("startButton").style.display = "inline";
+            document.getElementById("arrField").innerHTML = generateTable(arr);
+        } else {
+            let matrixInputHTML = "";
+            for (let i = 0; i < numRows; i++) {
+                matrixInputHTML += `
+                    <label for="row${i}">Row ${i + 1} (enter numbers separated by commas):</label>
+                    <input type="text" id="row${i}" placeholder="e.g., 1, 2, 3, 4">
+                `;
+            }
+            document.getElementById("matrixInput").innerHTML = matrixInputHTML;
+            document.getElementById("startButton").style.display = "inline";
+        }
+    });
+
+    document.getElementById("startButton").addEventListener("click", async function () {
+        const fillMethod = document.querySelector('input[name="fillMethod"]:checked').value;
+        if (fillMethod === "manual") {
+            arr = [];
+            for (let i = 0; i < document.getElementById("numRows").value; i++) {
+                const rowInput = document.getElementById(`row${i}`).value.trim();
+                if (!rowInput) {
+                    alert(`Please enter elements for row ${i + 1}`);
+                    return;
+                }
+                const row = rowInput.split(",").map(x => {
+                    const num = parseInt(x.trim());
+                    if (isNaN(num)) {
+                        alert(`Row ${i + 1} contains a non-numeric value.`);
+                        return null;
+                    }
+                    return num;
+                }).filter(x => x !== null);
+                arr.push(row);
+            }
+        }
+
+        document.getElementById("arrField").innerHTML = generateTable(arr);
+        document.getElementById("modifiedArrField").innerHTML = "";
+
+        await addRowAfterMin();
+    });
+
+    function generateTable(matrix) {
+        return matrix.map((row, i) =>
+            `<tr>${row.map((num, j) =>
+                `<td id="cell-${i}-${j}">${num}</td>`).join('')}</tr>`
+        ).join('');
+    }
+
+    async function addRowAfterMin() {
+        let minVal = Infinity;
+        let minCellId = "";
+        let minRowIndex = -1;
+
+        // Find the minimum value
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr[i].length; j++) {
+                const cell = document.getElementById(`cell-${i}-${j}`);
+                cell.classList.add("checking");
+                await new Promise(r => setTimeout(r, 1000)); // Delay
+
+                if (arr[i][j] < minVal) {
+                    // Remove highlight from the previous minimum
+                    if (minCellId) {
+                        document.getElementById(minCellId).classList.remove("min");
+                    }
+                    minVal = arr[i][j];
+                    minCellId = `cell-${i}-${j}`;
+                    minRowIndex = i;
+                    document.getElementById(minCellId).classList.add("min");
+                }
+
+                cell.classList.remove("checking");
+            }
+        }
+
+        // Add a new row after the minimum only in the modified array
+        const modifiedArr = [...arr];  // Create a copy of the original array
+        const newRow = [];
+        newRow.push(minVal); // Add the minimum to the new row
+
+        // Insert the new row into the modified array
+        modifiedArr.splice(minRowIndex + 1, 0, newRow);
+
+        // Update the table for the modified array
+        const modifiedArrTable = document.getElementById("modifiedArrField");
+        modifiedArrTable.innerHTML = '';  // Clear the table before updating
+
+        // Create a table for the modified array
+        let delay = 0;
+        modifiedArr.forEach((row, rowIndex) => {
+            const tr = document.createElement('tr');
+            row.forEach((cellValue, colIndex) => {
+                const td = document.createElement('td');
+                td.textContent = cellValue;
+                td.style.opacity = 0;  // Initially, the element will be invisible
+                tr.appendChild(td);
+
+                // Delay for each element
+                setTimeout(() => {
+                    td.style.transition = "opacity 1s";
+                    td.style.opacity = 1;  // Gradually make the element visible
+                }, delay);
+
+                delay += 500; // Delay for each element in the table
+            });
+            modifiedArrTable.appendChild(tr);
+        });
+    }
+</script>
+
+</body>
+</html>

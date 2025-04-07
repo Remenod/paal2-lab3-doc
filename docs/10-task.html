@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 10</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #212529;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            font-size: 18px;
+            transition: background 0.3s, box-shadow 0.3s;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .checking {
+            background-color: #f3c623 !important; /* Жовтий */
+        }
+        .max-found {
+            background-color: #28a745 !important; /* Зелений */
+            color: white;
+            box-shadow: 0 0 15px 5px rgba(40, 167, 69, 0.7); /* Світіння для максимуму */
+        }
+        .min-found {
+            background-color: #ff4747 !important; /* Червоний */
+            color: white;
+            box-shadow: 0 0 15px 5px rgba(255, 71, 71, 0.7); /* Світіння для мінімуму */
+        }
+    </style>
+</head>
+<div style="text-align: center; margin-top: 30px;">
+    <a href="introduction.html" style="
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #003D74;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+    ">🏠 Назад до головної</a>
+  </div>
+
+<body>
+
+<div class="container">
+    <h1>Find Max And Min Element</h1>
+
+    <label for="numRows"><b>Number of array elements:</b></label>
+    <input type="number" id="numRows" min="1" max="10" value="5">
+    <button id="initializeButton">Initialize Array</button>
+
+    <h3>Or enter the array manually (comma-separated):</h3>
+    <input type="text" id="manualArrayInput" placeholder="Наприклад: 1, -2, 5, 8">
+    <button id="manualInputButton">Enter Manually</button>
+
+    <h3>Initial Array:</h3>
+    <table id="arrField"></table>
+
+    <button id="modifyButton" style="display:none;">Start Checking</button>
+
+    <h3>Modified Array:</h3>
+    <table id="modifiedArrField"></table>
+</div>
+
+<script>
+    let array = [];
+
+    document.getElementById("initializeButton").addEventListener("click", function() {
+        const numRows = parseInt(document.getElementById("numRows").value);
+
+        if (isNaN(numRows) || numRows <= 0) {
+            alert("Please enter a valid number of elements.");
+            return;
+        }
+
+        array = [];
+        for (let i = 0; i < numRows; i++) {
+            array.push(Math.floor(Math.random() * 198) - 99);
+        }
+
+        updateFields();
+        document.getElementById("modifyButton").style.display = "inline";
+    });
+
+    document.getElementById("manualInputButton").addEventListener("click", function() {
+        const manualInput = document.getElementById("manualArrayInput").value;
+        const manualArray = manualInput.split(',').map(item => parseInt(item.trim()));
+
+        if (manualArray.some(isNaN)) {
+            alert("Please enter valid numbers separated by commas.");
+            return;
+        }
+
+        array = manualArray;
+        updateFields();
+        document.getElementById("modifyButton").style.display = "inline";
+    });
+
+    document.getElementById("modifyButton").addEventListener("click", function() {
+        findMinAndMax();
+    });
+
+    function updateFields() {
+        document.getElementById("arrField").innerHTML = generateTable(array, "original");
+        document.getElementById("modifiedArrField").innerHTML = "";
+    }
+
+    function generateTable(array, type = "original") {
+        if (type === "original") {
+            return `<tr>${array.map(num => `<td>${num}</td>`).join('')}</tr>`;
+        } else {
+            return `<tr>${array.map(num => `<td class="new-value">${num}</td>`).join('')}</tr>`;
+        }
+    }
+
+    async function findMinAndMax() {
+        let minVal = array[0], maxVal = array[0];
+        let minIndex = 0, maxIndex = 0;
+
+        let tableRow = document.getElementById("arrField").getElementsByTagName("tr")[0];
+
+        // Початковий елемент мінімум
+        tableRow.children[minIndex].classList.add("min-found");
+        await new Promise(resolve => setTimeout(resolve, 500)); // Затримка для анімації
+
+        // Початковий елемент максимум
+        tableRow.children[maxIndex].classList.add("max-found");
+        await new Promise(resolve => setTimeout(resolve, 500)); // Затримка для анімації
+
+        for (let i = 1; i < array.length; i++) {
+            let cell = tableRow.children[i];
+            cell.classList.add("checking"); // Підсвічуємо перевіряємий елемент
+            await new Promise(resolve => setTimeout(resolve, 500)); // Затримка для анімації
+
+            // Якщо знайшли новий мінімум
+            if (array[i] < minVal) {
+                tableRow.children[minIndex].classList.remove("min-found");
+                minVal = array[i];
+                minIndex = i;
+                cell.classList.add("min-found");
+                await new Promise(resolve => setTimeout(resolve, 500)); // Затримка для анімації
+            }
+
+            // Якщо знайшли новий максимум
+            if (array[i] > maxVal) {
+                tableRow.children[maxIndex].classList.remove("max-found");
+                maxVal = array[i];
+                maxIndex = i;
+                cell.classList.add("max-found");
+                await new Promise(resolve => setTimeout(resolve, 500)); // Затримка для анімації
+            }
+
+            cell.classList.remove("checking"); // Видаляємо підсвітку перевіряємого елемента
+            await new Promise(resolve => setTimeout(resolve, 500)); // Затримка для анімації
+        }
+
+        // Створюємо новий масив без елементів між мінімумом і максимумом (включаючи мінімум і максимум)
+        let newArray = array.slice(0, Math.min(minIndex, maxIndex) + 1).concat(array.slice(Math.max(minIndex, maxIndex)));
+
+        // Додаємо анімацію для запису нових значень у таблицю
+        let modifiedTableRow = document.getElementById("modifiedArrField");
+        let i = 0;
+        for (const num of newArray) {
+            const newCell = document.createElement("td");
+            newCell.classList.add("new-value");
+            newCell.textContent = num;
+            modifiedTableRow.appendChild(newCell);
+            await new Promise(resolve => setTimeout(resolve, 500)); // Затримка для анімації
+        }
+    }
+</script>
+
+</body>
+</html>
