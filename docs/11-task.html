@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Maximum and Add Row</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color:  #212529;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .checking {
+            background-color: #f3c623 !important;
+        }
+        .max-found {
+            background-color: #28a745 !important;
+            color: white;
+        }
+        #manualInputs {
+            display: none;
+        }
+        .input-row {
+            margin: 5px 0;
+        }
+        #manualHint {
+            display: none;
+            color: #003D74;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<div style="text-align: center; margin-top: 30px;">
+    <a href="introduction.html" style="
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #003D74;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+    ">🏠 Back to home</a>
+  </div>
+<body>
+
+<div class="container">
+    <h1>Find Maximum and Add Row</h1>
+
+    <label for="numRows"><b>Number of Rows:</b></label>
+    <input type="number" id="numRows" min="1" max="10" value="3">
+    
+    <br><br>
+
+    <label><b>Array filling method:</b></label><br>
+    <label><input type="radio" name="fillType" value="random" checked> Randomly</label>
+    <label><input type="radio" name="fillType" value="manual"> Manually</label>
+
+    <br><br>
+
+    <div id="manualInputs">
+        <label for="numCols"><b>Number of elements in each row:</b></label>
+        <input type="number" id="numCols" min="2" max="10" value="3">
+        <div id="manualElementInputs"></div>
+    </div>
+
+    <div id="manualHint">
+        To proceed, enter the number of elements in the row and their values.
+    </div>
+
+    <br><br>
+
+    <button id="initializeButton">Initialize Array</button>
+
+    <h3>Initial Array:</h3>
+    <table id="arrField"></table>
+
+    <button id="modifyButton" style="display:none;">Add Row After Maximum</button>
+
+    <h3>Modified Array:</h3>
+    <table id="modifiedArrField"></table>
+</div>
+
+<script>
+    let matrix = [];
+
+    document.querySelectorAll('input[name="fillType"]').forEach(input => {
+        input.addEventListener('change', function () {
+            const isManual = this.value === 'manual';
+            document.getElementById('manualInputs').style.display = isManual ? 'block' : 'none';
+            document.getElementById('manualHint').style.display = isManual ? 'block' : 'none';
+            if (!isManual) {
+                document.getElementById('manualElementInputs').innerHTML = '';
+            }
+        });
+    });
+
+    document.getElementById("numCols").addEventListener("input", function() {
+        const numCols = parseInt(this.value);
+        const inputContainer = document.getElementById("manualElementInputs");
+        inputContainer.innerHTML = '';
+
+        for (let i = 0; i < numCols; i++) {
+            const inputRow = document.createElement("div");
+            inputRow.className = "input-row";
+            inputRow.innerHTML = `
+                <label>Element ${i + 1}:</label>
+                <input type="number" id="element${i + 1}" placeholder="Enter number">
+            `;
+            inputContainer.appendChild(inputRow);
+        }
+    });
+
+    document.getElementById("initializeButton").addEventListener("click", function() {
+        const numRows = parseInt(document.getElementById("numRows").value);
+        const fillType = document.querySelector('input[name="fillType"]:checked').value;
+
+        matrix = [];
+        if (fillType === "random") {
+            for (let i = 0; i < numRows; i++) {
+                let numCols = 3; // Default number of columns for random input
+                let row = Array.from({ length: numCols }, () => Math.floor(Math.random() * 41) - 20);
+                matrix.push(row);
+            }
+        } else if (fillType === "manual") {
+            for (let i = 0; i < numRows; i++) {
+                let rowLength = parseInt(prompt(`Enter the number of elements for row ${i + 1}:`));
+                let row = [];
+                for (let j = 0; j < rowLength; j++) {
+                    let element = parseInt(prompt(`Enter element ${j + 1} for row ${i + 1}:`));
+                    row.push(element);
+                }
+                matrix.push(row);
+            }
+        }
+
+        updateFields();
+        document.getElementById("modifyButton").style.display = "inline";
+    });
+
+    document.getElementById("modifyButton").addEventListener("click", function() {
+        findMaxAndModify();
+    });
+
+    function updateFields() {
+        document.getElementById("arrField").innerHTML = generateTable(matrix);
+        document.getElementById("modifiedArrField").innerHTML = "";
+    }
+
+    function generateTable(matrix) {
+        return matrix.map(row => `<tr>${row.map(num => `<td>${num}</td>`).join('')}</tr>`).join('');
+    }
+
+    async function findMaxAndModify() {
+        let maxVal = Number.NEGATIVE_INFINITY;
+        let maxRow = -1, maxCol = -1;
+
+        let tableRows = document.getElementById("arrField").getElementsByTagName("tr");
+
+        for (let i = 0; i < matrix.length; i++) {
+            for (let j = 0; j < matrix[i].length; j++) {
+                let cell = tableRows[i].children[j];
+                cell.classList.add("checking");
+                await new Promise(resolve => setTimeout(resolve, 500));
+
+                if (matrix[i][j] > maxVal) {
+                    if (maxRow !== -1) {
+                        tableRows[maxRow].children[maxCol].classList.remove("max-found");
+                    }
+                    maxVal = matrix[i][j];
+                    maxRow = i;
+                    maxCol = j;
+                    cell.classList.add("max-found");
+                }
+
+                cell.classList.remove("checking");
+            }
+        }
+
+        await new Promise(resolve => setTimeout(resolve, 1000));
+
+        if (maxRow !== -1) {
+            matrix.splice(maxRow + 1, 0, [99, 100]);
+        }
+
+        await visualizeInsertion(matrix);
+    }
+
+    async function visualizeInsertion(matrix) {
+        let table = document.getElementById("modifiedArrField");
+        table.innerHTML = "";
+
+        for (let i = 0; i < matrix.length; i++) {
+            let tr = document.createElement("tr");
+            table.appendChild(tr);
+
+            for (let j = 0; j < matrix[i].length; j++) {
+                let td = document.createElement("td");
+                td.textContent = matrix[i][j];
+                tr.appendChild(td);
+                await new Promise(resolve => setTimeout(resolve, 500));
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

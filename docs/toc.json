@@ -1,2 +1,45 @@
-
-{"items":[{"name":"Introduction","href":"introduction.html","topicHref":"introduction.html"},{"name":"Getting Started","href":"getting-started.html","topicHref":"getting-started.html"}],"pdf":false}
+{
+  "items": [
+    {
+      "name": "Introduction",
+      "href": "introduction.html",
+      "topicHref": "introduction.html"
+    },
+    {
+      "name": "Task Overview",
+      "href": "task-overview.html",
+      "topicHref": "task-overview.html"
+    },
+    {
+      "name": "Task 1.10",
+      "href": "10-task.html",
+      "topicHref": "10-task.html"
+    },
+    {
+      "name": "Task 1.15",
+      "href": "15-task.html",
+      "topicHref": "15-task.html"
+    },
+    {
+      "name": "Task 1.16",
+      "href": "16-task.html",
+      "topicHref": "16-task.html"
+    },
+    {
+      "name": "Task 2.11",
+      "href": "11-task.html",
+      "topicHref": "11-task.html"
+    },
+    {
+      "name": "Task 2.13",
+      "href": "13-task.html",
+      "topicHref": "13-task.html"
+    },
+    {
+      "name": "Task 2.14",
+      "href": "14-task.html",
+      "topicHref": "14-task.html"
+    }
+  ],
+  "pdf": false
+}

@@ -87,6 +87,76 @@
         <article data-uid="">
 <h1 id="introduction">Introduction</h1>
 
+<h2 id="lab-assignment-dynamic-arrays">Lab Assignment: Dynamic Arrays</h2>
+<p>This task consists of two blocks, where different methods of handling dynamic arrays are to be implemented: one-dimensional arrays and jagged arrays. Below is the general approach for implementing each block in C#.</p>
+<h3 id="objective-of-the-lab-work">Objective of the Lab Work:</h3>
+<p>The goal of this lab assignment is to gain a deeper understanding of how dynamic arrays work in dotnet. By working with both one-dimensional and jagged arrays, students will develop skills in memory management, array manipulation, and efficient handling of data.</p>
+<h3 id="theoretical-background">Theoretical Background:</h3>
+<p>Dynamic arrays are arrays whose size can be changed during program execution. Unlike static arrays, dynamic arrays allow you to resize the array without needing to know the size in advance. In dotnet, dynamic arrays are typically implemented using classes such as <code>List&lt;T&gt;</code>, but here we focus on manually manipulating the size of arrays and performing operations such as resizing, inserting, and removing elements.</p>
+<h3 id="block-1-one-dimensional-arrays">Block 1: One-dimensional Arrays</h3>
+<h4 id="input-and-initialization-of-array">Input and Initialization of Array:</h4>
+<ul>
+<li>A method is implemented to input data either from the console, a txt file, or by generating it randomly.</li>
+</ul>
+<h4 id="method-for-array-transformation">Method for Array Transformation:</h4>
+<ul>
+<li>A method is created to change the size of the array.
+<ul>
+<li><strong>Manual creation of a new array using <code>new</code></strong>: A new array is created, and the necessary elements from the previous array are copied.</li>
+</ul>
+</li>
+</ul>
+<h4 id="removal-of-elements">Removal of Elements:</h4>
+<ul>
+<li>For each variant of element removal (e.g., the first even element, the last negative element), the following steps are performed:
+<ul>
+<li>Check if the element exists for removal.</li>
+<li>Perform a shift of elements to ensure there are no &quot;gaps&quot; in the array.</li>
+<li>After removal, change the size of the array to match the new number of elements.</li>
+</ul>
+</li>
+</ul>
+<h4 id="insertion-of-elements">Insertion of Elements:</h4>
+<ul>
+<li>Elements are inserted into the array at a specified position.</li>
+<li>Inserting elements requires shifting the remaining elements of the array.</li>
+</ul>
+<h4 id="implementation-of-handling-variants">Implementation of Handling Variants:</h4>
+<ul>
+<li>Necessary operations are performed, such as:
+<ul>
+<li>Insert the minimum value at the beginning and the maximum value at the end of the array.</li>
+<li>Modify the array according to specific conditions.</li>
+</ul>
+</li>
+</ul>
+<h3 id="block-2-jagged-arrays">Block 2: Jagged Arrays</h3>
+<h4 id="input-of-jagged-array">Input of Jagged Array:</h4>
+<ul>
+<li>A jagged array is an array of arrays. An array of arrays is used, where each inner array may have a different number of elements.</li>
+</ul>
+<h4 id="processing-of-jagged-array">Processing of Jagged Array:</h4>
+<ul>
+<li>For each variant, rows are added or removed from the jagged array.</li>
+<li>Reference reassignment is used to shift rows in the array, avoiding complex element copying.</li>
+</ul>
+<h4 id="checking-conditions">Checking Conditions:</h4>
+<ul>
+<li>Before removal or insertion, it is checked if there are rows or elements available to perform the operation.</li>
+</ul>
+<h4 id="insertion-and-removal-of-rows">Insertion and Removal of Rows:</h4>
+<ul>
+<li>Rows are inserted at the beginning or end of the jagged array by modifying references to the corresponding arrays.</li>
+<li>Removal of rows is done by shifting elements or simply reassigning references.</li>
+</ul>
+<h4 id="implementation-of-handling-variants-1">Implementation of Handling Variants:</h4>
+<ul>
+<li>For example, rows containing certain elements (minimum, maximum values) are removed, empty rows are inserted after every even row, and so on.</li>
+</ul>
+<h3 id="expected-outcomes">Expected Outcomes:</h3>
+<p>By the end of this lab assignment, students should be proficient in manipulating dynamic arrays and jagged arrays, including performing operations like resizing, inserting, and removing elements efficiently. These skills are crucial for managing memory effectively in real-world applications.</p>
+<h3 id="possible-challenges">Possible Challenges:</h3>
+<p>Students may face challenges such as managing memory efficiently, avoiding memory leaks, and ensuring that operations are optimized for large datasets. Understanding these concepts will be important for future work with dynamic data structures.</p>
 
 </article>
 

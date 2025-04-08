@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding a Row Before Minimum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #212529;
+            text-align: center;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ddd;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .highlight {
+            background-color: yellow !important;
+        }
+
+        .found {
+            background-color: lightgreen !important;
+        }
+
+        .new-cell {
+            opacity: 0;
+            transform: scale(0);
+            animation: appear 0.3s forwards;
+        }
+
+        @keyframes appear {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        button {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<div style="text-align: center; margin-top: 30px;">
+    <a href="introduction.html" style="
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #003D74;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+    ">🏠 Back to Home</a>
+</div>    
+<body>
+
+<div class="container">
+    <h1>Operations with Jagged Arrays</h1>
+
+    <label for="numRows"><b>Number of Rows:</b></label>
+    <input type="number" id="numRows" min="1" max="10" value="3">
+
+    <div>
+        <label><input type="radio" name="inputMethod" value="random" checked> Random Input</label>
+        <label><input type="radio" name="inputMethod" value="manual"> Manual Input</label>
+    </div>
+
+    <button id="initializeButton">Initialize Array</button>
+    <button id="modifyButton" style="display:none;">Add Row Before Minimum</button>
+
+    <h3>Initial Array:</h3>
+    <table id="arrField"></table>
+
+    <h3>Modified Array:</h3>
+    <table id="modifiedArrField"></table>
+</div>
+
+<script>
+    let matrix = [];
+    let minValue = null;
+    let minRowIndex = null;
+
+    document.getElementById("initializeButton").addEventListener("click", function () {
+        const numRows = parseInt(document.getElementById("numRows").value);
+        const inputMethod = document.querySelector('input[name="inputMethod"]:checked').value;
+
+        if (isNaN(numRows) || numRows <= 0) {
+            alert("Please enter a valid number of rows.");
+            return;
+        }
+
+        matrix = [];
+        if (inputMethod === 'random') {
+            for (let i = 0; i < numRows; i++) {
+                let rowLength = Math.floor(Math.random() * 5) + 2;
+                let row = Array.from({length: rowLength}, () => Math.floor(Math.random() * 198) - 99);
+                matrix.push(row);
+            }
+        } else if (inputMethod === 'manual') {
+            for (let i = 0; i < numRows; i++) {
+                let rowLength = parseInt(prompt(`Enter the number of elements for row ${i + 1}:`));
+                let row = [];
+                for (let j = 0; j < rowLength; j++) {
+                    let element = parseInt(prompt(`Enter element ${j + 1} for row ${i + 1}:`));
+                    row.push(element);
+                }
+                matrix.push(row);
+            }
+        }
+
+        updateFields();
+        document.getElementById("modifyButton").style.display = "inline";
+    });
+
+    function updateFields() {
+        document.getElementById("arrField").innerHTML = generateTable(matrix);
+        document.getElementById("modifiedArrField").innerHTML = "";
+    }
+
+    function generateTable(matrix) {
+        return matrix.map(row => `<tr>${row.map(num => `<td>${num}</td>`).join('')}</tr>`).join('');
+    }
+
+    document.getElementById("modifyButton").addEventListener("click", function () {
+        let allCells = document.querySelectorAll("#arrField td");
+
+        let minFound = false;
+        minValue = null;
+        minRowIndex = null;
+
+        let i = 0;
+        let totalCells = 0;
+        let rowOffsets = [];
+
+        matrix.forEach(row => {
+            rowOffsets.push(totalCells);
+            totalCells += row.length;
+        });
+
+        function checkNext() {
+            if (i < allCells.length) {
+                allCells[i].classList.add("highlight");
+
+                setTimeout(() => {
+                    let currentValue = parseInt(allCells[i].innerText);
+
+                    if (minValue === null || currentValue < minValue) {
+                        if (minFound) {
+                            document.querySelector(".found")?.classList.remove("found");
+                        }
+                        minValue = currentValue;
+                        minFound = true;
+                        allCells[i].classList.add("found");
+
+                        // Determine to which row this index belongs
+                        for (let row = 0; row < rowOffsets.length; row++) {
+                            if (i < rowOffsets[row] + matrix[row].length) {
+                                minRowIndex = row;
+                                break;
+                            }
+                        }
+                    }
+
+                    allCells[i].classList.remove("highlight");
+                    i++;
+                    checkNext();
+                }, 500);
+            } else {
+                setTimeout(() => {
+                    insertRow();
+                }, 500);
+            }
+        }
+
+        checkNext();
+
+        function insertRow() {
+            if (minRowIndex !== null) {
+                let newRow = [minValue];  // Row with the minimum value
+                matrix.splice(minRowIndex, 0, newRow);
+                animateMatrixUpdate(matrix);
+            }
+        }
+    });
+
+    function animateMatrixUpdate(matrix) {
+        let modifiedTable = document.getElementById("modifiedArrField");
+        modifiedTable.innerHTML = "";
+
+        let rowIndex = 0;
+
+        function addNextRow() {
+            if (rowIndex < matrix.length) {
+                let tr = document.createElement("tr");
+
+                let cellIndex = 0;
+
+                function addNextCell() {
+                    if (cellIndex < matrix[rowIndex].length) {
+                        let td = document.createElement("td");
+                        td.textContent = matrix[rowIndex][cellIndex];
+                        td.classList.add("new-cell");
+                        tr.appendChild(td);
+
+                        modifiedTable.appendChild(tr);
+
+                        setTimeout(() => {
+                            td.classList.remove("new-cell");
+                            cellIndex++;
+                            addNextCell();
+                        }, 500);
+                    } else {
+                        rowIndex++;
+                        setTimeout(addNextRow, 500);
+                    }
+                }
+
+                addNextCell();
+            }
+        }
+
+        addNextRow();
+    }
+</script>
+
+</body>
+</html>

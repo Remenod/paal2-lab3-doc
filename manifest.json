@@ -403,20 +403,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
+      "source_relative_path": "docs/introduction.md",
       "output": {
         ".html": {
-          "relative_path": "docs/getting-started.html"
+          "relative_path": "docs/introduction.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
+      "source_relative_path": "docs/task-overview.md",
       "output": {
         ".html": {
-          "relative_path": "docs/introduction.html"
+          "relative_path": "docs/task-overview.html"
         }
       },
       "version": ""
@@ -430,6 +430,66 @@
         },
         ".json": {
           "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/1.10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/1.10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/1.15.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/1.15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/1.16.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/1.16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2.11.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/2.11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2.13.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/2.13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2.14.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/2.14.png"
         }
       },
       "version": ""
