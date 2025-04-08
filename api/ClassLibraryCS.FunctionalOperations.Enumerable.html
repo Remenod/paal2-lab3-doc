@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Enumerable | Lab3 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Enumerable | Lab3 ">
+      
+      <meta name="description" content="Provides extension methods for working with sequences, including transformations, filtering, and taking elements.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Lab3">
+            Lab3
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ClassLibraryCS.FunctionalOperations.Enumerable">
+
+
+
+  <h1 id="ClassLibraryCS_FunctionalOperations_Enumerable" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable" class="text-break">
+Class Enumerable  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ClassLibraryCS.html">ClassLibraryCS</a>.<a class="xref" href="ClassLibraryCS.FunctionalOperations.html">FunctionalOperations</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ClassLibraryCS.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides extension methods for working with sequences, including transformations, filtering, and taking elements.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Enumerable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Enumerable</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_All_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.All*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_All__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  All&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether all elements of a sequence satisfy a specified condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool All&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to check.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A function that defines the condition to test each element against.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if every element in the sequence satisfies the condition; otherwise, <code>false</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Any_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Any*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Any__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  Any&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether any element of a sequence satisfies a specified condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Any&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to check.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A function that defines the condition to test each element against.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if any element in the sequence satisfies the condition; otherwise, <code>false</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Enumerate_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Enumerate__1_System_Collections_Generic_IEnumerable___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate``1(System.Collections.Generic.IEnumerable{``0})">
+  Enumerate&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enumerates a sequence and returns each element along with its index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;(TSource item, int i)&gt; Enumerate&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to enumerate.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;(TSource <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---0,system.int32-.item">item</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---0,system.int32-.i">i</a>)&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> where each element is paired with its index in the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Filter_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Filter*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Filter__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  Filter&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Filters a sequence of elements based on a specified predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Filter&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to filter.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A function that determines whether an element should be included in the result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> containing only elements that satisfy the predicate.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Filter_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Filter*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Filter__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int32_System_Boolean__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})">
+  Filter&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, int, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Filters a sequence of elements based on a specified predicate that also considers the element's index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Filter&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, int, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to filter.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A function that determines whether an element, based on its value and index, should be included in the result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> containing only elements that satisfy the predicate.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})">
+  FirstOrDefault&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the first element in a sequence, or <code>default</code> if no element is found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource? FirstOrDefault&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to find the first element from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd><p>The first element in the sequence, or <code>default</code> if the sequence is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  FirstOrDefault&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the first element in a sequence that satisfies a specified condition, or <code>default</code> if no such element is found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource? FirstOrDefault&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to search for the first element.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A function to test each element for a condition.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd><p>The first element in the sequence that satisfies the condition, or <code>default</code> if no such element is found.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean____0_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},``0)">
+  FirstOrDefault&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;, TSource)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the first element in a sequence that satisfies a specified condition, or a specified default value if no such element is found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource FirstOrDefault&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate, TSource defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to search for the first element.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A function to test each element for a condition.</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">TSource</span></dt>
+    <dd><p>The value to return if no element satisfies the condition.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd><p>The first element in the sequence that satisfies the condition, or the specified <code class="paramref">defaultValue</code> if no such element is found.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Fold_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Fold*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Fold__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Fold``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})">
+  Fold&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TSource, TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs a cumulative operation on a sequence, applying a function to each element and the accumulated result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource Fold&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TSource, TSource&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence of elements to apply the operation on.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TSource, TSource, TSource&gt;</dt>
+    <dd><p>A function that combines the accumulated result with each element in the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd><p>The result of the fold operation over the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if the source sequence is empty.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Fold_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Fold*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Fold__2_System_Collections_Generic_IEnumerable___0____1_System_Func___1___0___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})">
+  Fold&lt;TSource, TAccumulate&gt;(IEnumerable&lt;TSource&gt;, TAccumulate, Func&lt;TAccumulate, TSource, TAccumulate&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs a cumulative operation on a sequence, applying a function to each element and an accumulator value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TAccumulate Fold&lt;TSource, TAccumulate&gt;(this IEnumerable&lt;TSource&gt; source, TAccumulate initial, Func&lt;TAccumulate, TSource, TAccumulate&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence of elements to apply the operation on.</p>
+</dd>
+    <dt><code>initial</code> <span class="xref">TAccumulate</span></dt>
+    <dd><p>The initial value for the accumulator.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TAccumulate, TSource, TAccumulate&gt;</dt>
+    <dd><p>A function that combines the accumulator with each element in the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TAccumulate</span></dt>
+    <dd><p>The final accumulated result after applying the function to each element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+    <dt><code>TAccumulate</code></dt>
+    <dd><p>The type of the accumulator value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Let_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Let*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Let__2___0_System_Func___0___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Let``2(``0,System.Func{``0,``1})">
+  Let&lt;TSource, TResult&gt;(TSource, Func&lt;TSource, TResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows you to perform an operation on a value and return the result of that operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult Let&lt;TSource, TResult&gt;(this TSource value, Func&lt;TSource, TResult&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">TSource</span></dt>
+    <dd><p>The value to apply the operation to.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;</dt>
+    <dd><p>A function that performs an operation on the value and returns a result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TResult</span></dt>
+    <dd><p>The result of applying the function to the value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the value to operate on.</p>
+</dd>
+    <dt><code>TResult</code></dt>
+    <dd><p>The type of the result returned by the operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Map_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Map*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Map__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Map``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  Map&lt;TSource, TResult&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Projects each element of a sequence into a new form using the specified selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TResult&gt; Map&lt;TSource, TResult&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TResult&gt; selector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence of elements to transform.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;</dt>
+    <dd><p>A function to apply to each element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TResult&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> with transformed elements.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the source sequence.</p>
+</dd>
+    <dt><code>TResult</code></dt>
+    <dd><p>The type of the elements in the resulting sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Max_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Max*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Max__1_System_Collections_Generic_IEnumerable___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0})">
+  Max&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the maximum element in a sequence based on the implemented comparison operators for the type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource? Max&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source) where TSource : IComparisonOperators&lt;TSource, TSource, bool&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to find the maximum element from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd><p>The maximum element in the sequence, or <code>default</code> if the sequence is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence, which must implement<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3">IComparisonOperators&lt;TSelf, TOther, TResult&gt;</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Max_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Max*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Max__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  Max&lt;TSource, TResult&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Projects each element of a sequence to a value and returns the maximum value according to the provided selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult? Max&lt;TSource, TResult&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TResult&gt; selector) where TResult : IComparisonOperators&lt;TResult, TResult, bool&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to find the maximum value from.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;</dt>
+    <dd><p>A function to select a value from each element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TResult</span></dt>
+    <dd><p>The maximum value selected from the sequence, or <code>default</code> if the sequence is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+    <dt><code>TResult</code></dt>
+    <dd><p>The type of the values returned by the selector function, which must implement <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3">IComparisonOperators&lt;TSelf, TOther, TResult&gt;</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Min_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Min*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Min__1_System_Collections_Generic_IEnumerable___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0})">
+  Min&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the minimum element in a sequence based on the implemented comparison operators for the type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource? Min&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source) where TSource : IComparisonOperators&lt;TSource, TSource, bool&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to find the minimum element from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd><p>The minimum element in the sequence, or <code>default</code> if the sequence is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence, which must implement <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3">IComparisonOperators&lt;TSelf, TOther, TResult&gt;</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Min_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Min*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Min__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  Min&lt;TSource, TResult&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Projects each element of a sequence to a value and returns the minimum value according to the provided selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult? Min&lt;TSource, TResult&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TResult&gt; selector) where TResult : IComparisonOperators&lt;TResult, TResult, bool&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to find the minimum value from.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;</dt>
+    <dd><p>A function to select a value from each element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TResult</span></dt>
+    <dd><p>The minimum value selected from the sequence, or <code>default</code> if the sequence is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+    <dt><code>TResult</code></dt>
+    <dd><p>The type of the values returned by the selector function, which must implement <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.icomparisonoperators-3">IComparisonOperators&lt;TSelf, TOther, TResult&gt;</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_OrderByDescending_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_OrderByDescending__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})">
+  OrderByDescending&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IComparer&lt;TKey&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sorts the elements of a sequence in descending order according to a key selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOrderedEnumerable&lt;TSource&gt; OrderByDescending&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector, IComparer&lt;TKey&gt;? comparer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to sort.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd><p>A function to extract the key to compare elements by.</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer</a>&lt;TKey&gt;</dt>
+    <dd><p>An optional <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer&lt;T&gt;</a> to compare keys, or <code>null</code> to use the default comparer.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedenumerable-1">IOrderedEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An ordered sequence of elements in descending order based on the selected key.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>The type of the key used to compare elements.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_OrderBy_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_OrderBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})">
+  OrderBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IComparer&lt;TKey&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sorts the elements of a sequence in ascending order according to a key selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOrderedEnumerable&lt;TSource&gt; OrderBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector, IComparer&lt;TKey&gt;? comparer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to sort.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd><p>A function to extract the key to compare elements by.</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer</a>&lt;TKey&gt;</dt>
+    <dd><p>An optional <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer&lt;T&gt;</a> to compare keys, or <code>null</code> to use the default comparer.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedenumerable-1">IOrderedEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An ordered sequence of elements in ascending order based on the selected key.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>The type of the key used to compare elements.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_SkipWhile_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_SkipWhile__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  SkipWhile&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bypasses elements in a sequence as long as a specified condition is true and then returns the remaining elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; SkipWhile&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to skip elements from.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A function to test each element for a condition. The elements are skipped as long as the condition is true.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> containing the remaining elements after the predicate condition becomes false.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Skip_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Skip*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Skip__1_System_Collections_Generic_IEnumerable___0__System_Int32_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+  Skip&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bypasses a specified number of elements in a sequence and returns the remaining elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Skip&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, int count)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to skip elements from.</p>
+</dd>
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of elements to skip.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> containing the remaining elements after the specified number of elements has been skipped.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_TakeWhile_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_TakeWhile__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  TakeWhile&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns elements from the start of a sequence as long as the specified condition is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; TakeWhile&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to take elements from.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A function to test each element for a condition. The elements are returned as long as the condition is true.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> containing elements from the start of the sequence until the predicate fails.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_Take_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Take*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_Take__1_System_Collections_Generic_IEnumerable___0__System_Int32_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+  Take&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a specified number of contiguous elements from the start of a sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Take&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, int count)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to take elements from.</p>
+</dd>
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of elements to take from the start of the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> containing the first <code class="paramref">count</code> elements of the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_ThenByDescending_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_ThenByDescending__2_System_Linq_IOrderedEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})">
+  ThenByDescending&lt;TSource, TKey&gt;(IOrderedEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IComparer&lt;TKey&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs a subsequent ordering of elements in a sequence in descending order according to a key selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOrderedEnumerable&lt;TSource&gt; ThenByDescending&lt;TSource, TKey&gt;(this IOrderedEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector, IComparer&lt;TKey&gt;? comparer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedenumerable-1">IOrderedEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The previously ordered sequence to further sort.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd><p>A function to extract the key to compare elements by.</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer</a>&lt;TKey&gt;</dt>
+    <dd><p>An optional <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer&lt;T&gt;</a> to compare keys, or <code>null</code> to use the default comparer.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedenumerable-1">IOrderedEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An ordered sequence of elements in descending order based on the selected key.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>The type of the key used to compare elements.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_ThenBy_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_ThenBy__2_System_Linq_IOrderedEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})">
+  ThenBy&lt;TSource, TKey&gt;(IOrderedEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IComparer&lt;TKey&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs a subsequent ordering of elements in a sequence in ascending order according to a key selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOrderedEnumerable&lt;TSource&gt; ThenBy&lt;TSource, TKey&gt;(this IOrderedEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector, IComparer&lt;TKey&gt;? comparer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedenumerable-1">IOrderedEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The previously ordered sequence to further sort.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd><p>A function to extract the key to compare elements by.</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer</a>&lt;TKey&gt;</dt>
+    <dd><p>An optional <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer&lt;T&gt;</a> to compare keys, or <code>null</code> to use the default comparer.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedenumerable-1">IOrderedEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>An ordered sequence of elements in ascending order based on the selected key.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>The type of the key used to compare elements.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_ToArray_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ToArray*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_ToArray__1_System_Collections_Generic_IEnumerable___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})">
+  ToArray&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates an array from a sequence of elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource[] ToArray&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to convert to an array.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>TSource[]</dt>
+    <dd><p>An array containing the elements from the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_ToDynArray_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_ToDynArray__1_System_Collections_Generic_IEnumerable___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray``1(System.Collections.Generic.IEnumerable{``0})">
+  ToDynArray&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="ClassLibraryCS.Collections.DynArray-1.html">DynArray&lt;T&gt;</a> from a sequence of elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DynArray&lt;TSource&gt; ToDynArray&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to convert to a dynamic array.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClassLibraryCS.Collections.DynArray-1.html">DynArray</a>&lt;TSource&gt;</dt>
+    <dd><p>A <a class="xref" href="ClassLibraryCS.Collections.DynArray-1.html">DynArray&lt;T&gt;</a> containing the elements from the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_ToList_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ToList*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_ToList__1_System_Collections_Generic_IEnumerable___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})">
+  ToList&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a> from a sequence of elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;TSource&gt; ToList&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to convert to a list.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;TSource&gt;</dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a> containing the elements from the sequence.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="ClassLibraryCS_FunctionalOperations_Enumerable_ToSet_" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ToSet*"></a>
+
+  <h3 id="ClassLibraryCS_FunctionalOperations_Enumerable_ToSet__1_System_Collections_Generic_IEnumerable___0__" data-uid="ClassLibraryCS.FunctionalOperations.Enumerable.ToSet``1(System.Collections.Generic.IEnumerable{``0})">
+  ToSet&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet&lt;T&gt;</a> from a sequence of elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HashSet&lt;TSource&gt; ToSet&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd><p>The sequence to convert to a hash set.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;TSource&gt;</dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet&lt;T&gt;</a> containing the elements from the sequence, with duplicates removed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>The type of the elements in the sequence.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/dikotl/paal2-lab3/blob/794a3e0fc8e3ff937bd4b9e9dad24fce9190da66/ClassLibraryCS/FunctionalOperations/Enumerable.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
