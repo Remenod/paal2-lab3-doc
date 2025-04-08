@@ -1018,6 +1018,402 @@ references:
   fullName.vb: ClassLibraryCS.FunctionalEnumerableOperations.Enumerable.ToSet(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
   nameWithType: Enumerable.ToSet<TSource>(IEnumerable<TSource>)
   nameWithType.vb: Enumerable.ToSet(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalOperations
+  name: ClassLibraryCS.FunctionalOperations
+  href: api/ClassLibraryCS.FunctionalOperations.html
+  commentId: N:ClassLibraryCS.FunctionalOperations
+  fullName: ClassLibraryCS.FunctionalOperations
+  nameWithType: ClassLibraryCS.FunctionalOperations
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable
+  name: Enumerable
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html
+  commentId: T:ClassLibraryCS.FunctionalOperations.Enumerable
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable
+  nameWithType: Enumerable
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.All*
+  name: All
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_All_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.All
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.All
+  nameWithType: Enumerable.All
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: All<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_All__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: All(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.All<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.All(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.All<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.All(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Any*
+  name: Any
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Any_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Any
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Any
+  nameWithType: Enumerable.Any
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: Any<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Any__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Any``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: Any(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Any(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.Any<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.Any(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate*
+  name: Enumerate
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Enumerate_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate
+  nameWithType: Enumerable.Enumerate
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  name: Enumerate<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Enumerate__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Enumerate(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Enumerate(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.Enumerate<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.Enumerate(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Filter*
+  name: Filter
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Filter_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Filter
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Filter
+  nameWithType: Enumerable.Filter
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: Filter<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Filter__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: Filter(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Filter<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Filter(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.Filter<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.Filter(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
+  name: Filter<TSource>(IEnumerable<TSource>, Func<TSource, int, bool>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Filter__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int32_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Filter``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
+  name.vb: Filter(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Integer, Boolean))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Filter<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, int, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Filter(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Integer, Boolean))
+  nameWithType: Enumerable.Filter<TSource>(IEnumerable<TSource>, Func<TSource, int, bool>)
+  nameWithType.vb: Enumerable.Filter(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Integer, Boolean))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault*
+  name: FirstOrDefault
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault
+  nameWithType: Enumerable.FirstOrDefault
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})
+  name: FirstOrDefault<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: FirstOrDefault(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.FirstOrDefault<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.FirstOrDefault(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: FirstOrDefault<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: FirstOrDefault(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.FirstOrDefault<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.FirstOrDefault(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},``0)
+  name: FirstOrDefault<TSource>(IEnumerable<TSource>, Func<TSource, bool>, TSource)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_FirstOrDefault__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean____0_
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},``0)
+  name.vb: FirstOrDefault(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), TSource)
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>, TSource)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.FirstOrDefault(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean), TSource)
+  nameWithType: Enumerable.FirstOrDefault<TSource>(IEnumerable<TSource>, Func<TSource, bool>, TSource)
+  nameWithType.vb: Enumerable.FirstOrDefault(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), TSource)
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Fold*
+  name: Fold
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Fold_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Fold
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Fold
+  nameWithType: Enumerable.Fold
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Fold``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  name: Fold<TSource>(IEnumerable<TSource>, Func<TSource, TSource, TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Fold__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Fold``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  name.vb: Fold(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, TSource, TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Fold<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TSource, TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Fold(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TSource, TSource))
+  nameWithType: Enumerable.Fold<TSource>(IEnumerable<TSource>, Func<TSource, TSource, TSource>)
+  nameWithType.vb: Enumerable.Fold(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, TSource, TSource))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  name: Fold<TSource, TAccumulate>(IEnumerable<TSource>, TAccumulate, Func<TAccumulate, TSource, TAccumulate>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Fold__2_System_Collections_Generic_IEnumerable___0____1_System_Func___1___0___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  name.vb: Fold(Of TSource, TAccumulate)(IEnumerable(Of TSource), TAccumulate, Func(Of TAccumulate, TSource, TAccumulate))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Fold<TSource, TAccumulate>(System.Collections.Generic.IEnumerable<TSource>, TAccumulate, System.Func<TAccumulate, TSource, TAccumulate>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Fold(Of TSource, TAccumulate)(System.Collections.Generic.IEnumerable(Of TSource), TAccumulate, System.Func(Of TAccumulate, TSource, TAccumulate))
+  nameWithType: Enumerable.Fold<TSource, TAccumulate>(IEnumerable<TSource>, TAccumulate, Func<TAccumulate, TSource, TAccumulate>)
+  nameWithType.vb: Enumerable.Fold(Of TSource, TAccumulate)(IEnumerable(Of TSource), TAccumulate, Func(Of TAccumulate, TSource, TAccumulate))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Let*
+  name: Let
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Let_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Let
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Let
+  nameWithType: Enumerable.Let
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Let``2(``0,System.Func{``0,``1})
+  name: Let<TSource, TResult>(TSource, Func<TSource, TResult>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Let__2___0_System_Func___0___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Let``2(``0,System.Func{``0,``1})
+  name.vb: Let(Of TSource, TResult)(TSource, Func(Of TSource, TResult))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Let<TSource, TResult>(TSource, System.Func<TSource, TResult>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Let(Of TSource, TResult)(TSource, System.Func(Of TSource, TResult))
+  nameWithType: Enumerable.Let<TSource, TResult>(TSource, Func<TSource, TResult>)
+  nameWithType.vb: Enumerable.Let(Of TSource, TResult)(TSource, Func(Of TSource, TResult))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Map*
+  name: Map
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Map_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Map
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Map
+  nameWithType: Enumerable.Map
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Map``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: Map<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Map__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Map``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: Map(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Map<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Map(Of TSource, TResult)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TResult))
+  nameWithType: Enumerable.Map<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  nameWithType.vb: Enumerable.Map(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Max*
+  name: Max
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Max_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Max
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Max
+  nameWithType: Enumerable.Max
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0})
+  name: Max<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Max__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Max``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Max(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Max<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Max(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.Max<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.Max(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: Max<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Max__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Max``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: Max(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Max<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Max(Of TSource, TResult)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TResult))
+  nameWithType: Enumerable.Max<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  nameWithType.vb: Enumerable.Max(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Min*
+  name: Min
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Min_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Min
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Min
+  nameWithType: Enumerable.Min
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0})
+  name: Min<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Min__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Min``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Min(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Min<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Min(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.Min<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.Min(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: Min<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Min__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Min``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: Min(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Min<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Min(Of TSource, TResult)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TResult))
+  nameWithType: Enumerable.Min<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
+  nameWithType.vb: Enumerable.Min(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy*
+  name: OrderBy
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_OrderBy_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy
+  nameWithType: Enumerable.OrderBy
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending*
+  name: OrderByDescending
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_OrderByDescending_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending
+  nameWithType: Enumerable.OrderByDescending
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name: OrderByDescending<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_OrderByDescending__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name.vb: OrderByDescending(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>?)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.OrderByDescending(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IComparer(Of TKey))
+  nameWithType: Enumerable.OrderByDescending<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  nameWithType.vb: Enumerable.OrderByDescending(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name: OrderBy<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_OrderBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name.vb: OrderBy(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>?)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.OrderBy(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IComparer(Of TKey))
+  nameWithType: Enumerable.OrderBy<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  nameWithType.vb: Enumerable.OrderBy(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Skip*
+  name: Skip
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Skip_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Skip
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Skip
+  nameWithType: Enumerable.Skip
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile*
+  name: SkipWhile
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_SkipWhile_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile
+  nameWithType: Enumerable.SkipWhile
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: SkipWhile<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_SkipWhile__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: SkipWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.SkipWhile(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.SkipWhile<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.SkipWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Skip<TSource>(IEnumerable<TSource>, int)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Skip__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Skip``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: Skip(Of TSource)(IEnumerable(Of TSource), Integer)
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Skip(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), Integer)
+  nameWithType: Enumerable.Skip<TSource>(IEnumerable<TSource>, int)
+  nameWithType.vb: Enumerable.Skip(Of TSource)(IEnumerable(Of TSource), Integer)
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Take*
+  name: Take
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Take_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.Take
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Take
+  nameWithType: Enumerable.Take
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile*
+  name: TakeWhile
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_TakeWhile_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile
+  nameWithType: Enumerable.TakeWhile
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: TakeWhile<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_TakeWhile__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: TakeWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.TakeWhile(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: Enumerable.TakeWhile<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: Enumerable.TakeWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Take<TSource>(IEnumerable<TSource>, int)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_Take__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.Take``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: Take(Of TSource)(IEnumerable(Of TSource), Integer)
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.Take(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), Integer)
+  nameWithType: Enumerable.Take<TSource>(IEnumerable<TSource>, int)
+  nameWithType.vb: Enumerable.Take(Of TSource)(IEnumerable(Of TSource), Integer)
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy*
+  name: ThenBy
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ThenBy_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy
+  nameWithType: Enumerable.ThenBy
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending*
+  name: ThenByDescending
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ThenByDescending_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending
+  nameWithType: Enumerable.ThenByDescending
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name: ThenByDescending<TSource, TKey>(IOrderedEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ThenByDescending__2_System_Linq_IOrderedEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name.vb: ThenByDescending(Of TSource, TKey)(IOrderedEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending<TSource, TKey>(System.Linq.IOrderedEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>?)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.ThenByDescending(Of TSource, TKey)(System.Linq.IOrderedEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IComparer(Of TKey))
+  nameWithType: Enumerable.ThenByDescending<TSource, TKey>(IOrderedEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  nameWithType.vb: Enumerable.ThenByDescending(Of TSource, TKey)(IOrderedEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name: ThenBy<TSource, TKey>(IOrderedEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ThenBy__2_System_Linq_IOrderedEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+  name.vb: ThenBy(Of TSource, TKey)(IOrderedEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy<TSource, TKey>(System.Linq.IOrderedEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>?)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.ThenBy(Of TSource, TKey)(System.Linq.IOrderedEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IComparer(Of TKey))
+  nameWithType: Enumerable.ThenBy<TSource, TKey>(IOrderedEnumerable<TSource>, Func<TSource, TKey>, IComparer<TKey>?)
+  nameWithType.vb: Enumerable.ThenBy(Of TSource, TKey)(IOrderedEnumerable(Of TSource), Func(Of TSource, TKey), IComparer(Of TKey))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ToArray*
+  name: ToArray
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ToArray_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.ToArray
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ToArray
+  nameWithType: Enumerable.ToArray
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToArray<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ToArray__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToArray(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.ToArray(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.ToArray<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.ToArray(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray*
+  name: ToDynArray
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ToDynArray_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray
+  nameWithType: Enumerable.ToDynArray
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToDynArray<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ToDynArray__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToDynArray(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.ToDynArray(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.ToDynArray<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.ToDynArray(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ToList*
+  name: ToList
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ToList_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.ToList
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ToList
+  nameWithType: Enumerable.ToList
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToList<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ToList__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToList(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.ToList(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.ToList<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.ToList(Of TSource)(IEnumerable(Of TSource))
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ToSet*
+  name: ToSet
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ToSet_
+  commentId: Overload:ClassLibraryCS.FunctionalOperations.Enumerable.ToSet
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ToSet
+  nameWithType: Enumerable.ToSet
+- uid: ClassLibraryCS.FunctionalOperations.Enumerable.ToSet``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToSet<TSource>(IEnumerable<TSource>)
+  href: api/ClassLibraryCS.FunctionalOperations.Enumerable.html#ClassLibraryCS_FunctionalOperations_Enumerable_ToSet__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:ClassLibraryCS.FunctionalOperations.Enumerable.ToSet``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToSet(Of TSource)(IEnumerable(Of TSource))
+  fullName: ClassLibraryCS.FunctionalOperations.Enumerable.ToSet<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: ClassLibraryCS.FunctionalOperations.Enumerable.ToSet(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Enumerable.ToSet<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Enumerable.ToSet(Of TSource)(IEnumerable(Of TSource))
 - uid: ClassLibraryFS
   name: ClassLibraryFS
   href: api/ClassLibraryFS.html

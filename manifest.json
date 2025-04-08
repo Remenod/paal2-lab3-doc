@@ -124,6 +124,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryCS.FunctionalOperations.Enumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryCS.FunctionalOperations.Enumerable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryCS.FunctionalOperations.Enumerable",
+      "Summary": "<p sourcefile=\"api/ClassLibraryCS.FunctionalOperations.Enumerable.yml\" sourcestartlinenumber=\"1\">Provides extension methods for working with sequences, including transformations, filtering, and taking elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassLibraryCS.FunctionalOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassLibraryCS.FunctionalOperations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClassLibraryCS.FunctionalOperations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ClassLibraryFS.Coloring.StringExtension.yml",
       "output": {
         ".html": {
